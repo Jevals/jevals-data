@@ -1,0 +1,1844 @@
+{
+ "id": "helpsteer2",
+ "version": "0.1.0",
+ "primitive": "score",
+ "title": "HelpSteer2 helpfulness",
+ "dataset": "nvidia/HelpSteer2",
+ "config": "default",
+ "split": "validation",
+ "hf_revision": "990b2711a36180dd19d9c94b8627844866f8982a",
+ "license": "CC-BY-4.0",
+ "source_url": "https://huggingface.co/datasets/nvidia/HelpSteer2",
+ "instructions": "How helpful is the response to the prompt?",
+ "options": [
+  "0",
+  "1",
+  "2",
+  "3",
+  "4"
+ ],
+ "criteria": [
+  "Not helpful at all: the response misses the essence of what the user wanted.",
+  "Borderline unhelpful: mostly misses what the user wanted, but is useful in a small way.",
+  "Partially helpful: misses the overall goal of the request in some way.",
+  "Mostly helpful: aligned with the request, with some room for improvement.",
+  "Extremely helpful: completely aligned with what the prompt asked for."
+ ],
+ "state_fields": [
+  "prompt",
+  "response"
+ ],
+ "length_cap": 6000,
+ "seed": 20260918,
+ "n_items": 300,
+ "class_counts": {
+  "0": 23,
+  "1": 27,
+  "2": 35,
+  "3": 90,
+  "4": 125
+ },
+ "criteria_hash": "cd7113fe20542faa7e67f0ddf50076682e8101b9516e5fcc29fd2c1374426096",
+ "items": [
+  {
+   "item_id": "helpsteer2-5",
+   "row_idx": 5,
+   "state_sha256": "de703ec51e898e2f3ac72c77f55faeb04a4c0a04bd3a4b39fe97a0dbf6fdbbad",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-11",
+   "row_idx": 11,
+   "state_sha256": "e4be030d87ed6197c728b3752191926e60ca5b6e433bfd1536a48d11879c020d",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-14",
+   "row_idx": 14,
+   "state_sha256": "937375312d988f48f9e1b027c6c49b22c4bb5f45494bbd768c32ab9aec5aec1e",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-17",
+   "row_idx": 17,
+   "state_sha256": "31f4776287c95d9ca390629c030fbb834a062e2965256b5e219b6071784c8702",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-21",
+   "row_idx": 21,
+   "state_sha256": "7269c8892f165788c274d3ebf6d47603b304e2a8ff7c61365aaeea047321e09d",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-22",
+   "row_idx": 22,
+   "state_sha256": "e63fcb2790b021779732c5758413d74d83bbed5222545529acce2486502ac5b7",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-26",
+   "row_idx": 26,
+   "state_sha256": "cc71cb49f342a2f53f1a891b08108e70113337dfce2808b9789c2e36dee691aa",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-32",
+   "row_idx": 32,
+   "state_sha256": "42a36c136cda5a4485964c6396da2fd2d0d82542542f417aa7b3edff94ed745e",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-33",
+   "row_idx": 33,
+   "state_sha256": "62d6435fc4a091f018b8442b2f74fa4a421cb0c80ac7848817c3a904ecc49c50",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-40",
+   "row_idx": 40,
+   "state_sha256": "0bf279da4ed311c8fad56fa1c4c141b524462b33ecccad3d53194b0a8c6ecc97",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-45",
+   "row_idx": 45,
+   "state_sha256": "233ad41429b5f207c2cc00c84acbf9ad7cee0d7d4f6e4f50a627265fd2ec337d",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-47",
+   "row_idx": 47,
+   "state_sha256": "ddea1a7b1f91606a1f7b903d7fc963c90ed3a134f5d3baa2e365421ec5d553dc",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-48",
+   "row_idx": 48,
+   "state_sha256": "b38948e6b787be55a5921b388fe62d4e236b3b61d7e080ff46a845ae79e5d3d4",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-51",
+   "row_idx": 51,
+   "state_sha256": "64af31801725762b2778c3bba3cc92c53a87249488aa899da64858ddec9c37ad",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-52",
+   "row_idx": 52,
+   "state_sha256": "8343bdf47036f2169dc2115d94c823820421b43576d809df46dbbd0b89703294",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-54",
+   "row_idx": 54,
+   "state_sha256": "b9747d4d89d5d4daf4b1ccaebf2b85ed21a5ba52b11e0d420ac3e45165a5c77b",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-61",
+   "row_idx": 61,
+   "state_sha256": "0ce50748cf1d0fa8fcee80b23fa89b63eea43f633aaea4a7a47af6ea31e43fc4",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-63",
+   "row_idx": 63,
+   "state_sha256": "b537638ec5103720304e531fce9cf7547127b2a8f4d9630ee47212dd2c03d536",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-65",
+   "row_idx": 65,
+   "state_sha256": "b8a96e9f2809140feb1173bd08685d6aced3ecd4cadba9895a26828331d90de2",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-66",
+   "row_idx": 66,
+   "state_sha256": "df4b363651e13891b83a25e8e6cfe9c5a33885c99b69ac48f947c1b6f3fdf374",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-69",
+   "row_idx": 69,
+   "state_sha256": "ce6b98cd7bac3f3305929a5d013457e840923eac699f15ad353871a071a58504",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-74",
+   "row_idx": 74,
+   "state_sha256": "272165cb7f9896c7a673c766ed54b5d78bb21883a1bc09c021c639ef88dd72fc",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-75",
+   "row_idx": 75,
+   "state_sha256": "606ce340677f52dd81f251d032b3f9cb9f76813e1534644682e9f681f1d3006b",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-77",
+   "row_idx": 77,
+   "state_sha256": "a8b2d82fa5f42a956c466048cb671fae06d8d7ce913c715e62346c3837a7ab88",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-78",
+   "row_idx": 78,
+   "state_sha256": "318b3a818ea3f7ad10b7c2647b75eeaceeaa6d4c70aa4c50d71e28f05de117b1",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-83",
+   "row_idx": 83,
+   "state_sha256": "88e59fe7a6865b2e6787d2fd75a2bbcb414f778ab28e843b480bd4f77f297c8a",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-87",
+   "row_idx": 87,
+   "state_sha256": "44946931328cd105879d0cc8beeddca090ccdbaae6e1182cce41313cb90f9d64",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-91",
+   "row_idx": 91,
+   "state_sha256": "d674bbeaf5728bcb35a89ee3f1e60d98b78449bd28a3dd99fadb2065df6dfa1f",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-94",
+   "row_idx": 94,
+   "state_sha256": "3ede21db899635150895ae03f561c812999836ea0303a5bf83795619ec849ab5",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-108",
+   "row_idx": 108,
+   "state_sha256": "2ac6a6ee7729374f37604ffb8d165d63d5d7ea0f708f5805cc51eda8a2a52d18",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-109",
+   "row_idx": 109,
+   "state_sha256": "45e4d831ca3b7340c87088b965cb8817c4b8aea2d1479f3822d208f00ccee069",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-114",
+   "row_idx": 114,
+   "state_sha256": "a22dbddc4065df86e91929110b40a2658e8d1607089cbb4b0d36bf0f4d42d052",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-118",
+   "row_idx": 118,
+   "state_sha256": "6530de4cdc5bcee6694311bcfa8a91f1172b5240ed4ad9ceef86e82b63b9b6ab",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-119",
+   "row_idx": 119,
+   "state_sha256": "ada6730b262a936de0bddbff4f45f424cc1212581207604fe20ebca55ca6a8d9",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-122",
+   "row_idx": 122,
+   "state_sha256": "02888afc800cc73342fed21239af01d5b6c90cfe934204e9e88fb2c6d23881a0",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-126",
+   "row_idx": 126,
+   "state_sha256": "35b6ed9f07672009b5017bb9a3252ac4b87f3869759b11048499a477c2be9493",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-127",
+   "row_idx": 127,
+   "state_sha256": "7c8851d80e3f27a29e574a2e78dfdc136cc75ebae76ac1871945b52288129bc2",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-128",
+   "row_idx": 128,
+   "state_sha256": "72ebe30d0085d08aea938a6aba7b00ba36c16cadbf178a323d14b52c9283c184",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-134",
+   "row_idx": 134,
+   "state_sha256": "11539f66a1dbefd1e2c4ff68ea98928f8dedf743d1126370437666876c2816ff",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-142",
+   "row_idx": 142,
+   "state_sha256": "cc127d533ccc12d5319e18b468711cf089618f897f5aa0cf57030c0ab96b37e6",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-146",
+   "row_idx": 146,
+   "state_sha256": "46e9be0516befd12bf6a1d598757b04533490ebc77785e708a042a75b16bca3b",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-149",
+   "row_idx": 149,
+   "state_sha256": "faa2599752a3ba0b722068f891b5f94c1afc929f6b72af8d8271e9c15cae5e3f",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-151",
+   "row_idx": 151,
+   "state_sha256": "de9e36419a898e0cc7ad3d4152cfa0c8061c681dfb46f253427bbd3dcb6e273a",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-158",
+   "row_idx": 158,
+   "state_sha256": "875380e80547e052e4f88d35a849e7f91369f58491203dd3e8758167cf3ea852",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-164",
+   "row_idx": 164,
+   "state_sha256": "e02f96bee339be4478c5add956e102e6338a647a22cc37795050997d1de8c324",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-178",
+   "row_idx": 178,
+   "state_sha256": "38d94bf993443856c0a271d4b078f6fc1c485539e9f70932e4f0b8beb4640f36",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-182",
+   "row_idx": 182,
+   "state_sha256": "662a253165f5ccf155ba33309d4dd18a70c97bf052614b74d0b03e90baba24c4",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-183",
+   "row_idx": 183,
+   "state_sha256": "daa2ddc5c0ef6b68fff4e243f7ae6b025b6d28af7da27d62f6d8c9e59ae166ba",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-184",
+   "row_idx": 184,
+   "state_sha256": "69650c88fa07df84822fe9dddd24074e934c8bcd98c62e7e6d092237ba041008",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-187",
+   "row_idx": 187,
+   "state_sha256": "1c6de86ce49eb80c9bd8634c7ac7b9fc0fa6d7854943bfc21ad2d93ce0059b8e",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-188",
+   "row_idx": 188,
+   "state_sha256": "773552a844387c1e65a702a7213f0d5db19ec3663d592d44936e93f149150323",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-189",
+   "row_idx": 189,
+   "state_sha256": "bd924f5626fe5c53e90ca1224636e8f8b74e37a5aa54068d1d0da1b1bc7c5281",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-191",
+   "row_idx": 191,
+   "state_sha256": "9d05f89e8c119980cc027b7a8694afc34d2224d6b6cc3871e00e1a256715d936",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-192",
+   "row_idx": 192,
+   "state_sha256": "7f7c516aea35341472a44c7d501e821782b5af91e548df367d9e7d520d01c36e",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-206",
+   "row_idx": 206,
+   "state_sha256": "8d827b34b9f1c1f7684c964822bebfb61520b9d9ecf067acb8ca83c1a539b78b",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-213",
+   "row_idx": 213,
+   "state_sha256": "ec0524a61231ee03ce53366e926389bd8fe5b6c1cdc993f35fdc2aac02a40aea",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-221",
+   "row_idx": 221,
+   "state_sha256": "500f81d75da82f461a1caacaf6adcfa718774d7882fe087b122bdff52f55b068",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-235",
+   "row_idx": 235,
+   "state_sha256": "ade4fa41ca3543b954dbed7619803fc870db0cc8a38564e06c0174231ccf4834",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-239",
+   "row_idx": 239,
+   "state_sha256": "66aa575501c303efc109f0f171ef1d66933f55cfe0f58ab56d606a5fc44f110e",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-241",
+   "row_idx": 241,
+   "state_sha256": "e4ccbdd95a85759e95181ab62d29d7b3150fd9377264f9f10793e673412a04c4",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-243",
+   "row_idx": 243,
+   "state_sha256": "775550e2579b51b34c1ab0c31b6e84b62af770f6dec246b4abef7d5ce3fc7668",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-245",
+   "row_idx": 245,
+   "state_sha256": "713fcb8d140e4e19bfde1bf29a79fed301981374fd7ae8611d0972378101b023",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-258",
+   "row_idx": 258,
+   "state_sha256": "2077e7485105a9733207e99d3243655c1f0c27f5e9d667de63cc8c55af216315",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-259",
+   "row_idx": 259,
+   "state_sha256": "bd5c9272d0380267c56a89e80fb9abc09eaa0666177e93928799c41208ebca87",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-260",
+   "row_idx": 260,
+   "state_sha256": "c716e0856c4cded9bf23541ddf2fbb022958416fcbd6323d686cc8336a481a58",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-265",
+   "row_idx": 265,
+   "state_sha256": "14e9129d581e72eb23fbfddf3f50dcbff26a3375416266f805940e84f6bde499",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-269",
+   "row_idx": 269,
+   "state_sha256": "780b49c5e829b796eda73899ca0e2acfcabfa79a4b3e11720621b500fa8714cf",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-271",
+   "row_idx": 271,
+   "state_sha256": "d0cbbaf4823e730498d1cb1e40f1b8677bb10c538a617c48096be484019211a8",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-277",
+   "row_idx": 277,
+   "state_sha256": "eb1510d1178f7b8fa2bea1d3c11f9880f1fdcd02b28d8dea31d33a0251d34365",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-278",
+   "row_idx": 278,
+   "state_sha256": "18f41a85b723182d79e59d39b2077bf9a1e5652aa1a4bfa474b353ce0ba074de",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-283",
+   "row_idx": 283,
+   "state_sha256": "a4713f4618bc9b3ed8b0253340a2e2cbba20d9b9a7a8bde320d7f59c08326a28",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-289",
+   "row_idx": 289,
+   "state_sha256": "e43794f2ed174fb656e41cf515a7dbdd9ccea30b59e47331a16a3ec7767506fb",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-293",
+   "row_idx": 293,
+   "state_sha256": "5d5b4a8e0065346621289cf5a7a7413ff9706710177fcdad123a091b45867be1",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-294",
+   "row_idx": 294,
+   "state_sha256": "f7b0282c6304aa03f7dae7cc46b08aeb7ac04d4ed7b5d2ae779ebdc206d31521",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-296",
+   "row_idx": 296,
+   "state_sha256": "0df7bd5c5e06fa6f2b545fc285cee64b6efcdfd8b3cc1b8d5adf165a5cccede3",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-299",
+   "row_idx": 299,
+   "state_sha256": "ba6f32c5b10f7fc3f526f2a0548d3c573c0e3068b5d597dd79b4e255d5bf5025",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-300",
+   "row_idx": 300,
+   "state_sha256": "b354b77b8fc6712a770cf587f52924744f8b559cfe7ea36d58dfc66a07d7a6df",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-303",
+   "row_idx": 303,
+   "state_sha256": "71f89531d6a757dd1d108b2813e2e9876fd044364b0c621a5520d501879159f2",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-305",
+   "row_idx": 305,
+   "state_sha256": "e75cddc595452c12015bcb807b01769e44594fff9d116cf09fc90732963713df",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-306",
+   "row_idx": 306,
+   "state_sha256": "042df79c46843e07c4b0c501e307d0d146a93c9aadfa6f16932e733661817875",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-308",
+   "row_idx": 308,
+   "state_sha256": "fee1a882620dabdc05f60063fce79e4bf919bf28b1906e17cea76ef03a1972be",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-313",
+   "row_idx": 313,
+   "state_sha256": "74536e108794173d2db94c5e15915d18706bd8b5b081224faee8b6d456b3b84c",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-321",
+   "row_idx": 321,
+   "state_sha256": "3519b2e0fbfe029ea0a87225f608cd9389b34bbb2de5e2110072ae6fe0be15c6",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-322",
+   "row_idx": 322,
+   "state_sha256": "041a2ee793d7a8c0838a749cc83f82bc1b52201dc7a53e28cf8184ac83a3279e",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-324",
+   "row_idx": 324,
+   "state_sha256": "4147bb65e4c0ce539a6f3f37ba4f44e0bfbc7510e90378c55e43261e2f06fb7a",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-326",
+   "row_idx": 326,
+   "state_sha256": "088a90b500929b299af214f7b0c9d8ef0f8badd26b2b09cc428e24abc23a494a",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-329",
+   "row_idx": 329,
+   "state_sha256": "db57ed1c0b31215181d67fb0127902c8cb5a66a9ad9498dcf09d45419d46d49c",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-337",
+   "row_idx": 337,
+   "state_sha256": "b582009c731758f9e5b40bbf00c8cf841dded999530095c5698d9aa9d8f90e4f",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-338",
+   "row_idx": 338,
+   "state_sha256": "70df2f58dc080bf0c2cbb70f8093c1607798c8858841e935fabc600538737ec6",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-343",
+   "row_idx": 343,
+   "state_sha256": "53c61acd6a075f0b27831ba0f056a100fc841057b07ecefe6a82bbd4eebef8e2",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-346",
+   "row_idx": 346,
+   "state_sha256": "6d5fe82492de607a5e2c3a13008d70209567fb592069844962ae1356df1cfea8",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-347",
+   "row_idx": 347,
+   "state_sha256": "6fd843acf04956107d70fcbc6c42b00fe84b81fdf9be3c2aedb28e41fcfe0e51",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-348",
+   "row_idx": 348,
+   "state_sha256": "44a8f2c1dacb3b5acf9f4545cf321a4f212c9b37fb98d4c76548e5f44273d0ec",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-349",
+   "row_idx": 349,
+   "state_sha256": "6b39731013ad3edd440d8a5b599caf7e24a6f17da72493e01b1b326a0bef919c",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-355",
+   "row_idx": 355,
+   "state_sha256": "4455013a059f5fb0b5a6949319eacb3a38293f495a0c015e40865f70f25e8c2a",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-359",
+   "row_idx": 359,
+   "state_sha256": "5100e139a36789b7870ce29b1800cef9a61737c595ccc6871cc825fc7ebf6e75",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-360",
+   "row_idx": 360,
+   "state_sha256": "8a8e9e983cda9dae5956f844e279480266e05e5a959988e37ccc1d615600ee8a",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-367",
+   "row_idx": 367,
+   "state_sha256": "5cee5ff7b05ac8190d07fadbbe4c8c718f00e6c1fcc335e316e3d1b69dba1897",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-369",
+   "row_idx": 369,
+   "state_sha256": "979aba487dcb86ea60263e76ed6f3bbdc2e63e6bfd891299e9ff80349f740b06",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-371",
+   "row_idx": 371,
+   "state_sha256": "2c72289b8ba772bd1336f9219a2d2d96aaa0bee02678163d82bce426dc019229",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-375",
+   "row_idx": 375,
+   "state_sha256": "a4608ef0ad756c41d8b8fc65e3d0a808319cb2eb4d830b9ab01a1c4589a52231",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-376",
+   "row_idx": 376,
+   "state_sha256": "eb5e3aad30cdcbd0078d8a39f8da049328e275c099b55822e819e50dd5998776",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-378",
+   "row_idx": 378,
+   "state_sha256": "57932a5d5087fe1d38be003ce38c2256384f6a78dcf7128bf83b7e76107735f1",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-380",
+   "row_idx": 380,
+   "state_sha256": "2892163b277ac9f9f36b677598f0c0dd10f1c1511128ce39f50ba2a8d71b355f",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-382",
+   "row_idx": 382,
+   "state_sha256": "a092a5195ab2c47ae35d2d3405ccb8f141e2a4fe8b28c7be3849c99cdf2451d9",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-383",
+   "row_idx": 383,
+   "state_sha256": "cad2cebbf574885c7239d97eca07058982de7c8bd4c74886e69f768317863cf4",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-391",
+   "row_idx": 391,
+   "state_sha256": "468432789793fa60fd8a8bb6fc96d5df51c3b96f273cfd3ecab5c65bc6b98668",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-401",
+   "row_idx": 401,
+   "state_sha256": "067f9a6076e784da808148c22a554e9ec9b659cbe67be57c0928e25a4f0fa4e9",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-402",
+   "row_idx": 402,
+   "state_sha256": "e8cee5d80a1efb61a254d1ec208ae3327d828312ca405173cd7a8ca7da696368",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-404",
+   "row_idx": 404,
+   "state_sha256": "42f8dd03146889aaa78dce90801645169da0ef97726ea9afc578dcd53a4b8bb4",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-406",
+   "row_idx": 406,
+   "state_sha256": "de0012bfb9729147d7e4e4909a3a3b751c5d08e207b88a7631481b99c0fbb185",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-408",
+   "row_idx": 408,
+   "state_sha256": "85be862ed73cb0aa9eafc58aec715faa9bd43fb1cf6b79f652086620d4f4e151",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-411",
+   "row_idx": 411,
+   "state_sha256": "19c937ddf0b0a7ed60777db75bfd150ba243a909b5651f41f0a0a878d2f165ff",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-415",
+   "row_idx": 415,
+   "state_sha256": "987cf5b8099d5c94816ad4fedcb5e06403a8fb5dbd6e2a1f10ce70d8748cb469",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-422",
+   "row_idx": 422,
+   "state_sha256": "1b9ce0aea798ca42d2c2c27151e5a0775f58ac494a8c9c70ba2260e7288aa030",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-428",
+   "row_idx": 428,
+   "state_sha256": "30c9f1432b991d55a0d37ac748942c617f45c9ce8e816aec9c43ed0c61d03da4",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-432",
+   "row_idx": 432,
+   "state_sha256": "237f8522e7689b8238d9140c1c56d049cda10a401d9494adc96fedecc6cadbfe",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-439",
+   "row_idx": 439,
+   "state_sha256": "4b2db7fca50dee03493c9de55980219a038225b34caf3a9a672f6e3d1fa8365d",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-444",
+   "row_idx": 444,
+   "state_sha256": "c337f81383ce4a62f55df522cbee70022f7bdaf064dc4993ced1aebbeab26cd8",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-446",
+   "row_idx": 446,
+   "state_sha256": "6da34ab655213ac973d2bf123531416fa63bc3c7143f7f2d26d220e4000f7a48",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-448",
+   "row_idx": 448,
+   "state_sha256": "4cf76b9d58d8d30aa9ea48c737c5c48b569b523635999b4f62f0fc18af9cadca",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-452",
+   "row_idx": 452,
+   "state_sha256": "6806b812213efecaeafc7075689711bc787e1c7d01ecfb190154fc34499764e9",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-457",
+   "row_idx": 457,
+   "state_sha256": "1c136d9b70e5c43775e968e6c55244680864db87fc86a770a0226b24134db52b",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-465",
+   "row_idx": 465,
+   "state_sha256": "bb43d09def4dccfcb42f30f02cbd872a39a9bebcc601d5b12ff70e507bbd9107",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-466",
+   "row_idx": 466,
+   "state_sha256": "2f28ee23e5b6bcd6ffc1bbda6e8a37bf596dd1e0077e5454459ef216ef48b46e",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-467",
+   "row_idx": 467,
+   "state_sha256": "eeb44c57012436dc73145d2137ad902c07cbdd962ab7a70b2e5ecf2acf1d695f",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-469",
+   "row_idx": 469,
+   "state_sha256": "1f33af1dfaad7dda16971635223e7814e7e043843be1c57efd27f7536cd564c0",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-470",
+   "row_idx": 470,
+   "state_sha256": "f9e8e55b53a15c7504550e15870dc505e446c5bee29a6d8fe6217105c5544d8b",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-471",
+   "row_idx": 471,
+   "state_sha256": "2c144f02b4a78e43e29a89d36b3aaabd9581890880d9c30dbe2a249ad881375f",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-472",
+   "row_idx": 472,
+   "state_sha256": "be30377b7dde076517f8d2a0f9eb78f1cf3336341515a18675446bfb4a009d4f",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-475",
+   "row_idx": 475,
+   "state_sha256": "05ae628bee3d7f0f0a9abdda4b088d13a2ef4eba4c1f758f101aa9ab6c42473f",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-480",
+   "row_idx": 480,
+   "state_sha256": "aa4a3007711e68ba943dfe1593b0d9361b80384ed4c6d8bfb6465ece995bd172",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-481",
+   "row_idx": 481,
+   "state_sha256": "99652584d91781ecd575b78c89a500c1407a4203b52b5a9f21c2c107c2c920d5",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-485",
+   "row_idx": 485,
+   "state_sha256": "52816502af5073d7343a23b39a31d2bbbba15a8de5f30c256f4e13dc87276c05",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-495",
+   "row_idx": 495,
+   "state_sha256": "4ab632dc44c3f6c113f3f94944b902dba6a897dbafa9d5f50d176ba8f3abc766",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-496",
+   "row_idx": 496,
+   "state_sha256": "3238eaaf3ee7cd00406ecd8b56fde7d0489a8c00bd9994679b545d456d3d15ab",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-497",
+   "row_idx": 497,
+   "state_sha256": "5e81a0d51e9b2eda65c3187ec31623c226ae934f4ffba755105a06a2178e562d",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-499",
+   "row_idx": 499,
+   "state_sha256": "8e6bfcddf9a8052e5237fc08587c1a8cd947789a0fe86883bd0dc4997359a8b3",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-506",
+   "row_idx": 506,
+   "state_sha256": "81b648b0ef3b87adcd0cf0a1d97573823b817ec0fc3430918a93587d584aaa01",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-510",
+   "row_idx": 510,
+   "state_sha256": "abeb5a0c5fa8958630d78a06ba087c8d264dea8fe697c56f82adfb234dd4669d",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-516",
+   "row_idx": 516,
+   "state_sha256": "31a8ed7203a4ba3d3f408b3cb8b4ea5132443b09f3e2aa02c5c2289fcc7290e7",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-520",
+   "row_idx": 520,
+   "state_sha256": "efb85d37f4c7de0589a54ef8cb099253bc5e174f9451e2382b884cf5349269d4",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-521",
+   "row_idx": 521,
+   "state_sha256": "accc0ea7e6fdaaf2bd1836fbdaa5d98155716e352b356e0002eeed1fbfaffbae",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-522",
+   "row_idx": 522,
+   "state_sha256": "17d82407db1bf7e86079cd42101d91ddb42104454b1f85c4fbf252e69355fedd",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-526",
+   "row_idx": 526,
+   "state_sha256": "12c512a53c3bdf7fe2d7c93baa6af366d8f1e8c2d90bf39538e4c949ec32c28f",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-527",
+   "row_idx": 527,
+   "state_sha256": "ab67951dd2a50cc09652eb5e0ed48605ba43639ae2f72cd6dbec3939031f4875",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-528",
+   "row_idx": 528,
+   "state_sha256": "da2c5ebfca7bae740e6398fdce5b4dea4f7cf69ba383aedb9f4cb37eab603486",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-531",
+   "row_idx": 531,
+   "state_sha256": "728f5aa638b7d05d47106759720503579557c715a56e55ac6bc64593d1b87eec",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-532",
+   "row_idx": 532,
+   "state_sha256": "3bbe0a2b2da504118bb9a8339875406cc8173fa697c5694a7180a8eac2cbe758",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-534",
+   "row_idx": 534,
+   "state_sha256": "b917a903b1aeabe2c7abc72981d57babe1f736cfa082b9ee9bef66627f9abada",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-551",
+   "row_idx": 551,
+   "state_sha256": "51621205b47f002ce8738cf933d80bccffe449d4de736f152b470c04b3dfcc7a",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-553",
+   "row_idx": 553,
+   "state_sha256": "7b6d9a1b13d6e3f2934e4a14ab8865dda102e52d44939925e34f2b8e3a55e5f8",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-554",
+   "row_idx": 554,
+   "state_sha256": "38569f53440a6b03fdbcc1193a0749c825dfefe3006f25f2accd6374c56866b2",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-555",
+   "row_idx": 555,
+   "state_sha256": "b78304fb53515d47d240d3c5774b911134262122e332d5be74ce34edff17c8f6",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-556",
+   "row_idx": 556,
+   "state_sha256": "edf9155437d513d3a814b0af4820bfa6207c5f312129b438c8cf94f5e29b87b4",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-557",
+   "row_idx": 557,
+   "state_sha256": "e6d7783ab3a9d0f415f53b37a015867e3b75e75558ec10100c53ac27fc4ad0e8",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-563",
+   "row_idx": 563,
+   "state_sha256": "5f28c5eaeafe59104abaa10b134c5e2552a1f87e9a8856d2a185e395784cb60e",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-564",
+   "row_idx": 564,
+   "state_sha256": "e45e1cc9a2864230a4e8efb888726b5fabe9c6ee141881519b8f2ff799f686a6",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-565",
+   "row_idx": 565,
+   "state_sha256": "7d36db7f35b6a9d50145dba6544b47a2b4d10d84bcc3699113992ebaac4989d9",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-566",
+   "row_idx": 566,
+   "state_sha256": "d11c24ceb932c9e74e0196739f52c659ea3922ab618c57456fef8feef70254d0",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-568",
+   "row_idx": 568,
+   "state_sha256": "665f5326e78b84181e2bcb1d48399d104dd33a375262913fb4f874a7d5a689f7",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-569",
+   "row_idx": 569,
+   "state_sha256": "afd171b3b21986f120b5aae60fde6768e28a1ea2c8cc171bd910f19ae1a19fe0",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-570",
+   "row_idx": 570,
+   "state_sha256": "39fbe28d1e5addf91637456b1ef1d91952df4249e8c560929b0030a412d1cf91",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-577",
+   "row_idx": 577,
+   "state_sha256": "2b18259184ce7029e6876a396838f2ab12c6c23ae5509bc1634823114704133c",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-585",
+   "row_idx": 585,
+   "state_sha256": "a2dc3978ba89e423d775aab323c167b4cb65f47eb0b48f36162efab17b6f1e78",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-587",
+   "row_idx": 587,
+   "state_sha256": "c57afa04f877d4bfd5498222d40265d207107e557ab8610a4b43055667759652",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-588",
+   "row_idx": 588,
+   "state_sha256": "57e7e2ed145dc226e1550ee38f0eb169a7c004f68fcdb9b49f92b085fe5e57ee",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-596",
+   "row_idx": 596,
+   "state_sha256": "a269b3bf81c2493817ddf85f158bf9ae6a4352081428acfb721736233712529d",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-599",
+   "row_idx": 599,
+   "state_sha256": "cf977218bceebea84dfa39fe6fb79158615809838e63e8a60c4c541164aa6ecf",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-602",
+   "row_idx": 602,
+   "state_sha256": "cca7e4b6cfffb36a75a792f0cd3a74b8af53e7bb46c118e8a044449a11775151",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-604",
+   "row_idx": 604,
+   "state_sha256": "0e910ff45d79a31ac1e9913d45f0e8804e1388377ba3f2ca6daeb5edbd622b84",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-608",
+   "row_idx": 608,
+   "state_sha256": "c648411100c653de2c5c19fc651a736d75b695a69a1372eab632e1bad336dbf9",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-613",
+   "row_idx": 613,
+   "state_sha256": "c4508904c764812737c0baab14efe8723e7fdbb96016ff3de864427823baf302",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-614",
+   "row_idx": 614,
+   "state_sha256": "c2802f62e968b98acf5df1949ae53d5b3bcbaf82b5e62d70dcd9ee4ac1de93f0",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-617",
+   "row_idx": 617,
+   "state_sha256": "2ae58ab881a1fb2dac787c8e1be0a58dca86ab57c12ba7e731f031e88911c78d",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-618",
+   "row_idx": 618,
+   "state_sha256": "56af338c5ce2d49fe8ec05abe7e50a2d76957b088c1d4aecb22d5026b9c22e7b",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-619",
+   "row_idx": 619,
+   "state_sha256": "553c4eee1a06cfb6461d895a7b56e5bd684a6cbdb8e3057eac1d46ca18fdc473",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-624",
+   "row_idx": 624,
+   "state_sha256": "8f61e249a74def5c3d4b4c4702c94af37f094b5df4b21d285a70b97ae17ed304",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-625",
+   "row_idx": 625,
+   "state_sha256": "243e73e56b7cea3a9325689a577612bdb65cdabd0a376b16b30a72b2677c42b9",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-629",
+   "row_idx": 629,
+   "state_sha256": "bc03473db22322d92b2d9ffbb90949400ce3d345e3c32207b34c4a0ed2f6faf0",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-630",
+   "row_idx": 630,
+   "state_sha256": "a5673b99842153c13148105c5839ad7ac134fa69a30b8472568251c3d7316afa",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-634",
+   "row_idx": 634,
+   "state_sha256": "8f7cddab72524e75c5eda818189de964940c1572738a07813c665d8d89c9d53f",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-637",
+   "row_idx": 637,
+   "state_sha256": "8d2e21c5c097df6a3042f3849c3d6c4eb54b172352ee54bb322a52ea3370e52e",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-640",
+   "row_idx": 640,
+   "state_sha256": "44c24d2211ee6ea000b1e10c7d479199d960636981edfbff39a8350eafd860a2",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-641",
+   "row_idx": 641,
+   "state_sha256": "41d427ca37c59888a0320177ec1d5f7662045ed1bd00a3f4011624a492b299ce",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-644",
+   "row_idx": 644,
+   "state_sha256": "33f27dcd3372fe3e86c75a4f610566a1ead0545d48c477ec58fc9f14a53e58c4",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-646",
+   "row_idx": 646,
+   "state_sha256": "dacd3a3605f80b026469bc15587196ae8faeb359ad0de3d367b95f200817d8b3",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-648",
+   "row_idx": 648,
+   "state_sha256": "efe26eb98c6161dd83eab6d1c0bc4c31d1a6f484f2b818058bb9868a6bb6f6fb",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-655",
+   "row_idx": 655,
+   "state_sha256": "7f8619d2878b1565fcf4a8bd7639d22f5b990ef0b5c6d7a1286f9b0b10e3389d",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-657",
+   "row_idx": 657,
+   "state_sha256": "6195cea1ecec66108d2b4fa516e96100eba8e4cb2b2d2db0db4635b06422727c",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-663",
+   "row_idx": 663,
+   "state_sha256": "af0519b1d78920ae42dd491669a0da9d342777d48ad7d106c886e8a552869dd8",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-668",
+   "row_idx": 668,
+   "state_sha256": "43821b970fb27faf92686dfcf86a67e683eda4c117bcf1bc7acface44977c9ab",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-673",
+   "row_idx": 673,
+   "state_sha256": "28cbf7c0397a6fb58af7f1c2f6843d089a2ecde93a1a75fd1506564d1cbda59a",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-685",
+   "row_idx": 685,
+   "state_sha256": "8f91a053a8697987d9753e3a432bbdfbaa7ef3ae8a2cfc910a900819ecbfd71e",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-686",
+   "row_idx": 686,
+   "state_sha256": "16894d4b77ec55765a0556f24501c842ee616b3e796d718074c729425dccf441",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-688",
+   "row_idx": 688,
+   "state_sha256": "9fdcb8e3a3b09a5221d594ef7104f61d9a218f720a2de99914183e3edb38de17",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-694",
+   "row_idx": 694,
+   "state_sha256": "d59f6720adeaf5a5c4c88fca106bfc78c4d5f002f74f158a0bb5291d410a6016",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-695",
+   "row_idx": 695,
+   "state_sha256": "ef62f9753b2fc07d28ae1eea872d5b12fe14203b33a715931f17c108a152c5f7",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-696",
+   "row_idx": 696,
+   "state_sha256": "6cf6a1367017c23376cd651e351a0fe732dbfe169d5cb7671baa186b9206c72e",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-702",
+   "row_idx": 702,
+   "state_sha256": "8ac7190743e37675acb1ab06d9309b26c13baf5e2ed13b458aa6d311378f4d19",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-703",
+   "row_idx": 703,
+   "state_sha256": "572fb0af98a8394fd37afd3b600e1f71490fbdf9a72c8c369f335f968d7ddb24",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-705",
+   "row_idx": 705,
+   "state_sha256": "6ac0a842f16a6a4a78a11e9474a22595debe71c5cc2c54c454f847f070308996",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-715",
+   "row_idx": 715,
+   "state_sha256": "c016e374f28f9860bb5f2d8ae690ae47efda0c8cd087f14316b1182a58ae5447",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-718",
+   "row_idx": 718,
+   "state_sha256": "c28af11b2fc9541a3530c26fc4b1eb4de65b536458f0d6785a42e774b136560c",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-722",
+   "row_idx": 722,
+   "state_sha256": "38343298709d8f89690e1919672ccd0b050d15faa2f257e0052ee1663660578a",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-723",
+   "row_idx": 723,
+   "state_sha256": "e9dc9d4877813d9dce799e4ef16233cf3fb2421d89c4f277650c357d54ee62d6",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-727",
+   "row_idx": 727,
+   "state_sha256": "cfcf034ce058b9b7c0979a1995643e207585a40616026a1baf3aaf9a67cc6bac",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-743",
+   "row_idx": 743,
+   "state_sha256": "b5bd466f32c9ae22075a0b63d64fd4d285cd43198e90b4092d42f386bf7d7893",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-748",
+   "row_idx": 748,
+   "state_sha256": "ad37b694a1774a53d9ce501d2e8f1bf9316c587ea4006651db62c63fd63aa0ff",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-753",
+   "row_idx": 753,
+   "state_sha256": "10be2eadc21b0c1581b4efd7f7d8397f96c56da966e6c5c5e861b3efa965d5ca",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-760",
+   "row_idx": 760,
+   "state_sha256": "4a0bab5d953c2c5979fea6ba1f9942991b1a43fcc021d9bd356946a688d3830c",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-764",
+   "row_idx": 764,
+   "state_sha256": "7aa571aaca9d72ef40dc162618b4786802fb403e59e5e595890a07347f1f81fe",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-766",
+   "row_idx": 766,
+   "state_sha256": "06e9a05f1e9f64d6cdca5d7604c7ed3b449fc14a60beeea0b121c241eea688c8",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-767",
+   "row_idx": 767,
+   "state_sha256": "3ccf4cd541bd7f0447e2e42786a2404e069dafe4c351e85334159decf00d3b35",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-774",
+   "row_idx": 774,
+   "state_sha256": "01085a90bbff647428a1d2b18ac9ce31bd3b5846eba695c9b79ab889d9ef9a9a",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-780",
+   "row_idx": 780,
+   "state_sha256": "d4f1c1d19712c880960b62fd55279f4c8f263b789125de55d96681f53e51a403",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-782",
+   "row_idx": 782,
+   "state_sha256": "c9c43d731f3bcae402a3369357fe679a080dd2151a6f903f1c1490d04eeb63aa",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-783",
+   "row_idx": 783,
+   "state_sha256": "3228350b5e68b0178492a7c7ad4a058648c45b4bb8426ec6def02caf76423c82",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-786",
+   "row_idx": 786,
+   "state_sha256": "7b2a5e97fe80436fae1d5d40b73563c9ee536100eb2ea4e55b5c5efc6f5c85a0",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-787",
+   "row_idx": 787,
+   "state_sha256": "41445411119a8502094d20e73968dfb441b0abda430346844f62b84410ffe01d",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-788",
+   "row_idx": 788,
+   "state_sha256": "5466affd21d5369ccaccfe75b3953803eea9b8e96eca2c0d83ae98450084c562",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-789",
+   "row_idx": 789,
+   "state_sha256": "89e47ed5eadfb0b3ea7392ff3a8bd6033939abaeb29bf52ca7121dea04f246d7",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-790",
+   "row_idx": 790,
+   "state_sha256": "8b299a6632435ca689a822e651a23882789e6371a684530d37157eecef1b8238",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-791",
+   "row_idx": 791,
+   "state_sha256": "127e45a8662d9c8951676908292cf2f7bf2df8ba2935f5c4cfd86b5fd3d07d65",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-792",
+   "row_idx": 792,
+   "state_sha256": "e991e0ebf7a508c39a5bdad6fb1aeab57fe0f6b3a8c24abfd2242c6ec3388ae0",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-793",
+   "row_idx": 793,
+   "state_sha256": "60b2bccb92696b9e2f58c7eaa2360e90141bef3c7461c1a9f76bc1241ef5d191",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-795",
+   "row_idx": 795,
+   "state_sha256": "11eef58ac9cf76083b6ff8ff796bcff4b966a29b0d66b95dd19c18e71016d3e7",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-798",
+   "row_idx": 798,
+   "state_sha256": "ee65f734fc248e1da92ff925ac7cd334a7cac80e83da0a943516297c017066f9",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-802",
+   "row_idx": 802,
+   "state_sha256": "6d844867b724815ecdeceb8d1f055e01d13b732f8cf04603355e8fd37f4dac36",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-805",
+   "row_idx": 805,
+   "state_sha256": "f84f91e868758e7596aea3efa0a2c75e2eec98ed166ade099efc521478b09448",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-806",
+   "row_idx": 806,
+   "state_sha256": "8eedc47a481e8b3022370227cd39ed4f256225fbf0fcf1a08b19181c17bd0065",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-809",
+   "row_idx": 809,
+   "state_sha256": "24bdc3ba8dfdc799b657f0ae01ea0272c4e10c4199fb6b1c49b6cb99d42003dc",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-811",
+   "row_idx": 811,
+   "state_sha256": "08f33ebc6a72b54863b6da005f37e566cdb25fa9542f7fd18e05ae3968689aa6",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-815",
+   "row_idx": 815,
+   "state_sha256": "44488461ea4fa181ccb4dda4c54e47fe5a8237133560e8c06db72bd11b559fca",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-820",
+   "row_idx": 820,
+   "state_sha256": "e75ba7eec5283aad43b382686771dfcb45161eb3fb021249dae9f82f3a893310",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-823",
+   "row_idx": 823,
+   "state_sha256": "b73c442c17c5b15a0e608e5589ec6235579ec2ae98475b2bf8f58378534315a7",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-827",
+   "row_idx": 827,
+   "state_sha256": "50717b36f792867443acd7e2bd0c15b62aff7b15249c7e132ba02546c3b61119",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-829",
+   "row_idx": 829,
+   "state_sha256": "d53980e3236b2547dde38ea1ea50de11c8c637071b6631e33e88a0c8a44d8165",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-830",
+   "row_idx": 830,
+   "state_sha256": "34341c141d81b9d799907d5c69f0f743ffd1863023ee68b49d5b65af9c4b0969",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-835",
+   "row_idx": 835,
+   "state_sha256": "0dd56db3c469d81aaf0f1e4bffab98448f148c448f046dc8af5eaf9fb7baafb2",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-836",
+   "row_idx": 836,
+   "state_sha256": "73d52bbc23651645ef524e87a38e99de990c0b2190226b72f9b88ac974c17613",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-838",
+   "row_idx": 838,
+   "state_sha256": "a3a60279f56d6206999a4483b3be8254da52678b84bd37f7a47720ccb6126ec0",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-844",
+   "row_idx": 844,
+   "state_sha256": "34b4b6460be310fa7e0f551bd48ddc38182a910a4da05ec57e61ef9e98991e20",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-846",
+   "row_idx": 846,
+   "state_sha256": "462ba0644319001c1f7785abb440b5a6dff29cd335abedd1e765f46600a1d33d",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-858",
+   "row_idx": 858,
+   "state_sha256": "bff02f15da4ec0641f0f623c5b82285191305c470c82e77996b7560a7cc31f47",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-861",
+   "row_idx": 861,
+   "state_sha256": "c1178b3c1cf70e96994681c92aea226a5e6ac5ee30b9ba87ff9b10df788ae83d",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-866",
+   "row_idx": 866,
+   "state_sha256": "b8f96c06d725c1c861f74981d1744aa480f3f9e6e1e4735fe07b02ffb38a971a",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-867",
+   "row_idx": 867,
+   "state_sha256": "f0def7197016d0781b6be8dcf4809904bf537d88d689934ac7ca67bec9647b98",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-868",
+   "row_idx": 868,
+   "state_sha256": "d5be76ded6d471e600db294323821675033fd45eb858de6eb67019b5a83429df",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-873",
+   "row_idx": 873,
+   "state_sha256": "91641687a91299bc51ba06c17fd194f754c8c4ef748596db7d0ef49d63665e8a",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-878",
+   "row_idx": 878,
+   "state_sha256": "3553e25768f99804e1d72b9705d02d129cbae74ad13eedc387dcd3ae39271693",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-885",
+   "row_idx": 885,
+   "state_sha256": "e37c3f0936be7d4d296a8685e2eaa02269036c761eebc17af20e599bd708ed18",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-888",
+   "row_idx": 888,
+   "state_sha256": "d9e9ad24525fe7bcd75dfae42fa2e97ccfa07ed33645f59ab89a215d90e2d004",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-890",
+   "row_idx": 890,
+   "state_sha256": "3f81d7b7f659a66c70cbe2a5108c8d092ef0b3993d674f7714d3814001bec2bb",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-891",
+   "row_idx": 891,
+   "state_sha256": "f977d0c3a69ff07e573cae14037f1da4d625eccb8ead11e1263af6d9f1662cde",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-893",
+   "row_idx": 893,
+   "state_sha256": "a1947bb29a0a370427de9a807de0fbd5b0c698592fff7530e9afb62d827bde96",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-894",
+   "row_idx": 894,
+   "state_sha256": "46054fb48c3e4e7e7687b4fae31ec91825e422de7a6611dc620bb424dac562a0",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-898",
+   "row_idx": 898,
+   "state_sha256": "1c8e27a0213326044be231cfe7bc36e718772df6245ae62d94efa5e2a9cbe716",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-899",
+   "row_idx": 899,
+   "state_sha256": "a794fc68b6b52f4295765822f20e2b871a37aadd9456a4c34793a1a1aa1bba86",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-901",
+   "row_idx": 901,
+   "state_sha256": "5fcc6d87a9a57e835744a0ec724e2be5cefcb86a532d084573a1d2e796c192c7",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-908",
+   "row_idx": 908,
+   "state_sha256": "d2e9609fa3fe6902b225fa6fadfd6d410500555f93963ebeb6847bc8270f95ce",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-910",
+   "row_idx": 910,
+   "state_sha256": "f37d8c4b18307a1b8bd8ed835114fa82b523aef2eee5af7f37e0cb4c3ec93189",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-914",
+   "row_idx": 914,
+   "state_sha256": "d599800498b3ff97b943067604d28ec83840aa041e9f2c5b094af38104e40458",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-919",
+   "row_idx": 919,
+   "state_sha256": "4b3f0d0da6a1d530725a282e55720fec7760f66a03c0b9bc80c347daf5f971c5",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-920",
+   "row_idx": 920,
+   "state_sha256": "fb9c6a78e3716174d4e95c064abb8658cfccd5a7fb47d1d6f6bc76be7f4d9197",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-921",
+   "row_idx": 921,
+   "state_sha256": "cecbbfdc130d70a3b219e88d7d0f210cb112abdb5eea5249653312e69be335f0",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-922",
+   "row_idx": 922,
+   "state_sha256": "23e900e830511cc795b7a8e3f3d8d895711cba73d452aca1909a2b264cb881d4",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-926",
+   "row_idx": 926,
+   "state_sha256": "9bd59578143c5c0fa4b40a533dd81f2507c08876f0ea0a8d6c15676c04ecbbb5",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-931",
+   "row_idx": 931,
+   "state_sha256": "ca8e74678a8202b76e496ce0f689cf09d3cb3009accb0383a8831ab6d8e999e3",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-934",
+   "row_idx": 934,
+   "state_sha256": "50153c3bc932a84b0753d37751e76c8abb63d4d55e5aacaf661f310cfc9fdeb6",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-936",
+   "row_idx": 936,
+   "state_sha256": "fbf076d9b6de87f6ef31d009fbcf9c5c21b4e17819201095e5d453d7d437f8d5",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-941",
+   "row_idx": 941,
+   "state_sha256": "62161d709be657f8dff7f5a51000398f370908db640940aafb0996428b18da6b",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-945",
+   "row_idx": 945,
+   "state_sha256": "6688380b520489ad6f36bbc7ef4048e349e2abc4ef9683d4af15510c5b30163a",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-949",
+   "row_idx": 949,
+   "state_sha256": "057c89d5606124a3a24c009e69e0d88da85bc602693d8c7108db30b3c54d9fb7",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-952",
+   "row_idx": 952,
+   "state_sha256": "de7bc0b42b2b18d7b9243d8d29669db8106ca9fc867100a8e91565ea4f6aeb35",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-956",
+   "row_idx": 956,
+   "state_sha256": "d77b4aaf70631ea78684355f5c770c705fb373ffa705409aad36a379378c9a7c",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-959",
+   "row_idx": 959,
+   "state_sha256": "c0c0b38bfca7230450340d0324fa63b70f07a57294d816dfb8e598136444ff7e",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-962",
+   "row_idx": 962,
+   "state_sha256": "dc6b42c87d9d2ae1c8d72c29c8e1cba0d0203be0a96e8a252b68caf163652054",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-963",
+   "row_idx": 963,
+   "state_sha256": "fa87b5b299091adb6ca9aaaf9e21da32e8fe128d74a81955375ed8aa70c97c82",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-964",
+   "row_idx": 964,
+   "state_sha256": "cc6fc1219ba22b54ac4468fbf2fbd1ddff28ae8a196622fbb1c7e849c57e3383",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-968",
+   "row_idx": 968,
+   "state_sha256": "b69250d6742aaff8ae4b0ab410b1e8f615b12f36d321981db0479ccd36b8b481",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-972",
+   "row_idx": 972,
+   "state_sha256": "5af0c51089d328ff612e178549820a2a2bc81f83e90903a6455c81be60b04244",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-973",
+   "row_idx": 973,
+   "state_sha256": "20228b88d0747afdff077f19b5a4ab8f233aeeb40265bac97709defe0f96817f",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-975",
+   "row_idx": 975,
+   "state_sha256": "5e3a80d6b7d167210de6e784e403c7478ceac4d8c6e25aa26fa6162aa3d4933c",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-977",
+   "row_idx": 977,
+   "state_sha256": "08ea872658a87aec17ff781a1389cec50e29db08cd8fdf4de6f4dee11a51d61c",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-978",
+   "row_idx": 978,
+   "state_sha256": "c365d12e3032649ce1048da76821bb4a6c797bdfc0960e8609642546211b45cb",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-980",
+   "row_idx": 980,
+   "state_sha256": "191b8291d1b031eaa1884b38d1989fabcb845a81779f3d4b57b2afb5df6b9f5a",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-993",
+   "row_idx": 993,
+   "state_sha256": "9ebce459da11426191b93ed3da15ac53fe63f61990637aa5aaafe451fe6692a9",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-998",
+   "row_idx": 998,
+   "state_sha256": "a0ff48beb78c0569915ed19522813f4c5394be5c6a47093b4521ef37423f83e3",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-1001",
+   "row_idx": 1001,
+   "state_sha256": "e76f064fb8caf3a18292c728532b8b5e9bc6dddb2ef41b1f331c486ac642d083",
+   "target": 0
+  },
+  {
+   "item_id": "helpsteer2-1008",
+   "row_idx": 1008,
+   "state_sha256": "8b8dcb70fbe1ab05b4d7ea9236d1f9595d519015d5140d7e50da9f5d6e415c35",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-1016",
+   "row_idx": 1016,
+   "state_sha256": "a9712aaab08706b39ecabe99fe93fcc55ccc5db248ecc8626fc41ac9c3168a61",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-1017",
+   "row_idx": 1017,
+   "state_sha256": "4ab864ed1867e5072f3d101c48f4b151efbbc050a37e6cfb47726c0b4be42692",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-1021",
+   "row_idx": 1021,
+   "state_sha256": "e6075b2a4d98257e54320b63ac06d15b8fd096f3bfd1fd000c225e917e3cfaad",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-1022",
+   "row_idx": 1022,
+   "state_sha256": "19a4926a193d5dc5303f2e10fef0167fa56015548256d05acf677243643e30b8",
+   "target": 2
+  },
+  {
+   "item_id": "helpsteer2-1030",
+   "row_idx": 1030,
+   "state_sha256": "8fa2ae3e609131a4e811e1be216bf35e58ad8b75b5b94a70a91bafd62c78a5da",
+   "target": 1
+  },
+  {
+   "item_id": "helpsteer2-1031",
+   "row_idx": 1031,
+   "state_sha256": "5d0ba0772dd362765c36712df98f3e671681e34a29b0813455ce727d83467a1a",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-1032",
+   "row_idx": 1032,
+   "state_sha256": "d0490b9511688740e993bd571bb55275e81f32ee0fad073dc11408e6b9fa2286",
+   "target": 3
+  },
+  {
+   "item_id": "helpsteer2-1034",
+   "row_idx": 1034,
+   "state_sha256": "f21fa0aa997fa14a2132bc4135750244837b01569f501da4a4f4dae592b026bb",
+   "target": 4
+  },
+  {
+   "item_id": "helpsteer2-1035",
+   "row_idx": 1035,
+   "state_sha256": "9d93aeb6ba76e3f67a960000ba2e0713396f84aa5f5fbe5975964d83a410f0f5",
+   "target": 4
+  }
+ ]
+}

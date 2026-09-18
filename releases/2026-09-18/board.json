@@ -1,0 +1,1696 @@
+{
+ "grader_version": 1,
+ "suite_version": "0.1.0",
+ "release_id": "2026-09-18",
+ "as_of": "2026-09-18",
+ "license": "CC-BY-4.0",
+ "citation": "Jevals (jevals.com), release 2026-09-18, suite 0.1.0. CC-BY-4.0.",
+ "run_origin": "maintainer's laptop, UTC+3",
+ "gate_t": {
+  "choice": 0.96,
+  "score": null,
+  "noul": 0.91
+ },
+ "benchmarks": [
+  {
+   "id": "banking77",
+   "version": "0.1.0",
+   "primitive": "choice",
+   "title": "Banking77",
+   "dataset": "mteb/banking77",
+   "config": "default",
+   "split": "test",
+   "hf_revision": "18072d2685ea682290f7b8924d94c62acc19c0b2",
+   "license": "CC-BY-4.0 (Banking77, PolyAI; mirror tagged MIT)",
+   "source_url": "https://huggingface.co/datasets/mteb/banking77",
+   "length_cap": 6000,
+   "n_items": 300,
+   "class_counts": {
+    "activate_my_card": 4,
+    "age_limit": 4,
+    "apple_pay_or_google_pay": 4,
+    "atm_support": 3,
+    "automatic_top_up": 4,
+    "balance_not_updated_after_bank_transfer": 4,
+    "balance_not_updated_after_cheque_or_cash_deposit": 4,
+    "beneficiary_not_allowed": 4,
+    "cancel_transfer": 4,
+    "card_about_to_expire": 4,
+    "card_acceptance": 4,
+    "card_arrival": 4,
+    "card_delivery_estimate": 4,
+    "card_linking": 4,
+    "card_not_working": 4,
+    "card_payment_fee_charged": 4,
+    "card_payment_not_recognised": 4,
+    "card_payment_wrong_exchange_rate": 4,
+    "card_swallowed": 4,
+    "cash_withdrawal_charge": 4,
+    "cash_withdrawal_not_recognised": 4,
+    "change_pin": 4,
+    "compromised_card": 4,
+    "contactless_not_working": 4,
+    "country_support": 4,
+    "declined_card_payment": 4,
+    "declined_cash_withdrawal": 4,
+    "declined_transfer": 4,
+    "direct_debit_payment_not_recognised": 4,
+    "disposable_card_limits": 4,
+    "edit_personal_details": 4,
+    "exchange_charge": 4,
+    "exchange_rate": 4,
+    "exchange_via_app": 3,
+    "extra_charge_on_statement": 4,
+    "failed_transfer": 4,
+    "fiat_currency_support": 4,
+    "get_disposable_virtual_card": 4,
+    "get_physical_card": 4,
+    "getting_spare_card": 4,
+    "getting_virtual_card": 4,
+    "lost_or_stolen_card": 4,
+    "lost_or_stolen_phone": 4,
+    "order_physical_card": 4,
+    "passcode_forgotten": 4,
+    "pending_card_payment": 4,
+    "pending_cash_withdrawal": 4,
+    "pending_top_up": 4,
+    "pending_transfer": 3,
+    "pin_blocked": 4,
+    "receiving_money": 4,
+    "Refund_not_showing_up": 4,
+    "request_refund": 4,
+    "reverted_card_payment?": 4,
+    "supported_cards_and_currencies": 4,
+    "terminate_account": 4,
+    "top_up_by_bank_transfer_charge": 4,
+    "top_up_by_card_charge": 4,
+    "top_up_by_cash_or_cheque": 4,
+    "top_up_failed": 4,
+    "top_up_limits": 4,
+    "top_up_reverted": 4,
+    "topping_up_by_card": 4,
+    "transaction_charged_twice": 4,
+    "transfer_fee_charged": 4,
+    "transfer_into_account": 4,
+    "transfer_not_received_by_recipient": 3,
+    "transfer_timing": 4,
+    "unable_to_verify_identity": 4,
+    "verify_my_identity": 4,
+    "verify_source_of_funds": 4,
+    "verify_top_up": 4,
+    "virtual_card_not_working": 4,
+    "visa_or_mastercard": 3,
+    "why_verify_identity": 3,
+    "wrong_amount_of_cash_received": 3,
+    "wrong_exchange_rate_for_cash_withdrawal": 3
+   },
+   "criteria_hash": "3d98e4b3e675d53f73b7b641d28cbc2552b47a574c102442bf683dad759e0174",
+   "n_options": 77,
+   "random_baseline": 0.013,
+   "label_source": "ground_truth"
+  },
+  {
+   "id": "helpsteer2",
+   "version": "0.1.0",
+   "primitive": "score",
+   "title": "HelpSteer2 helpfulness",
+   "dataset": "nvidia/HelpSteer2",
+   "config": "default",
+   "split": "validation",
+   "hf_revision": "990b2711a36180dd19d9c94b8627844866f8982a",
+   "license": "CC-BY-4.0",
+   "source_url": "https://huggingface.co/datasets/nvidia/HelpSteer2",
+   "length_cap": 6000,
+   "n_items": 300,
+   "class_counts": {
+    "0": 23,
+    "1": 27,
+    "2": 35,
+    "3": 90,
+    "4": 125
+   },
+   "criteria_hash": "cd7113fe20542faa7e67f0ddf50076682e8101b9516e5fcc29fd2c1374426096",
+   "n_options": 5,
+   "random_baseline": 0.2,
+   "label_source": "ground_truth"
+  },
+  {
+   "id": "pubmedqa",
+   "version": "0.1.0",
+   "primitive": "noul",
+   "title": "PubMedQA",
+   "dataset": "qiaojin/PubMedQA",
+   "config": "pqa_labeled",
+   "split": "train",
+   "hf_revision": "9001f2853fb87cab8d220904e0de81ac6973b318",
+   "license": "MIT",
+   "source_url": "https://huggingface.co/datasets/qiaojin/PubMedQA",
+   "length_cap": 6000,
+   "n_items": 300,
+   "class_counts": {
+    "no": 114,
+    "yes": 186
+   },
+   "criteria_hash": "f14633ff925f04eb85bfba47c030140831ce3e4901b1914e757d9cbaf980541a",
+   "n_options": 2,
+   "random_baseline": 0.5,
+   "label_source": "ground_truth"
+  }
+ ],
+ "rows": [
+  {
+   "slug": "gemini-3.8-flash",
+   "primitive": "choice",
+   "model_id": "google/gemini-3.8-flash",
+   "resolved_model": "google/gemini-3.8-flash",
+   "display_name": "Gemini 3.8 Flash",
+   "organization": "Google",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Google AI Studio",
+   "reasoning": "low (mandatory)",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 74.107,
+   "ci_low": 68.4397,
+   "ci_high": 79.7893,
+   "rank_ub": 1,
+   "accuracy": 0.846,
+   "acc_ci_low": 0.808,
+   "acc_ci_high": 0.882,
+   "ece_10_bin": 0.0319,
+   "ece_ci": [
+    0.0174,
+    0.0679
+   ],
+   "loss": 0.2555,
+   "cost_per_1k": 1.367931,
+   "price_asof": "2026-09-18",
+   "p50_ms": 1636,
+   "p95_ms": 3938,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.03,
+   "order_flip_rate": 0.0867,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.1173,
+   "accuracy_at_t": 0.9943,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "banking77",
+     "decision_score": 74.107,
+     "ci_low": 68.4397,
+     "ci_high": 79.7893,
+     "accuracy": 0.846
+    }
+   ],
+   "run_ids": [
+    "gemini-3.8-flash__banking77__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/gemini-3.8-flash__banking77__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "jev",
+   "primitive": "choice",
+   "model_id": "typesafe-ai/jev",
+   "resolved_model": "typesafe-ai/jev",
+   "display_name": "Jev",
+   "organization": "TypeSafe AI",
+   "interface": "native",
+   "adapter": "ai-sdk experimental_evaluate",
+   "adapter_version": "ai@7.0.106",
+   "probability_source": "native",
+   "probability_host": "Vercel AI Gateway",
+   "reasoning": "—",
+   "temperature": "—",
+   "verified": true,
+   "decision_score": 67.7806,
+   "ci_low": 61.3393,
+   "ci_high": 74.4909,
+   "rank_ub": 2,
+   "accuracy": 0.7967,
+   "acc_ci_low": 0.7547,
+   "acc_ci_high": 0.838,
+   "ece_10_bin": 0.0981,
+   "ece_ci": [
+    0.065,
+    0.1355
+   ],
+   "loss": 0.318,
+   "cost_per_1k": 0.043276,
+   "price_asof": "2026-09-18",
+   "p50_ms": 467,
+   "p95_ms": 693,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "6d93f79a2310"
+   ],
+   "repeat_flip_rate": 0.0267,
+   "order_flip_rate": 0.1033,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.5947,
+   "accuracy_at_t": 0.9428,
+   "mass_at_conf_1": 0.4153,
+   "per_task": [
+    {
+     "benchmark_id": "banking77",
+     "decision_score": 67.7806,
+     "ci_low": 61.3393,
+     "ci_high": 74.4909,
+     "accuracy": 0.7967
+    }
+   ],
+   "run_ids": [
+    "jev__banking77__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/jev__banking77__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "glm-5.3",
+   "primitive": "choice",
+   "model_id": "z-ai/glm-5.3",
+   "resolved_model": "z-ai/glm-5.3",
+   "display_name": "GLM-5.3",
+   "organization": "Z.ai",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Novita (fp8)",
+   "reasoning": "low (mandatory)",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 66.8264,
+   "ci_low": 61.9567,
+   "ci_high": 71.7196,
+   "rank_ub": 2,
+   "accuracy": 0.7887,
+   "acc_ci_low": 0.7493,
+   "acc_ci_high": 0.8267,
+   "ece_10_bin": 0.0616,
+   "ece_ci": [
+    0.0392,
+    0.0964
+   ],
+   "loss": 0.3274,
+   "cost_per_1k": 0.718505,
+   "price_asof": "2026-09-18",
+   "p50_ms": 2110,
+   "p95_ms": 3186,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.0967,
+   "order_flip_rate": 0.2367,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.0033,
+   "accuracy_at_t": 1,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "banking77",
+     "decision_score": 66.8264,
+     "ci_low": 61.9567,
+     "ci_high": 71.7196,
+     "accuracy": 0.7887
+    }
+   ],
+   "run_ids": [
+    "glm-5.3__banking77__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/glm-5.3__banking77__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "deepseek-v4.1-flash",
+   "primitive": "choice",
+   "model_id": "deepseek/deepseek-v4.1-flash",
+   "resolved_model": "deepseek/deepseek-v4.1-flash",
+   "display_name": "DeepSeek V4.1 Flash",
+   "organization": "DeepSeek",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · DeepSeek",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 63.9292,
+   "ci_low": 58.5065,
+   "ci_high": 69.6119,
+   "rank_ub": 4,
+   "accuracy": 0.7587,
+   "acc_ci_low": 0.7187,
+   "acc_ci_high": 0.8007,
+   "ece_10_bin": 0.0276,
+   "ece_ci": [
+    0.0204,
+    0.0553
+   ],
+   "loss": 0.356,
+   "cost_per_1k": 0.138384,
+   "price_asof": "2026-09-18",
+   "p50_ms": 999,
+   "p95_ms": 1309,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1498,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.1067,
+   "order_flip_rate": 0.302,
+   "schema_valid_rate": 0.9987,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.148,
+   "accuracy_at_t": 0.991,
+   "mass_at_conf_1": 0.006,
+   "per_task": [
+    {
+     "benchmark_id": "banking77",
+     "decision_score": 63.9292,
+     "ci_low": 58.5065,
+     "ci_high": 69.6119,
+     "accuracy": 0.7587
+    }
+   ],
+   "run_ids": [
+    "deepseek-v4.1-flash__banking77__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/deepseek-v4.1-flash__banking77__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "qwen3.8-flash",
+   "primitive": "choice",
+   "model_id": "qwen/qwen3.8-flash",
+   "resolved_model": "qwen/qwen3.8-flash",
+   "display_name": "Qwen3.8 Flash",
+   "organization": "Alibaba",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Alibaba",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 62.4389,
+   "ci_low": 55.9178,
+   "ci_high": 68.8961,
+   "rank_ub": 4,
+   "accuracy": 0.768,
+   "acc_ci_low": 0.726,
+   "acc_ci_high": 0.8087,
+   "ece_10_bin": 0.0951,
+   "ece_ci": [
+    0.0603,
+    0.1322
+   ],
+   "loss": 0.3707,
+   "cost_per_1k": 0.122064,
+   "price_asof": "2026-09-18",
+   "p50_ms": 1713,
+   "p95_ms": 3105,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1498,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "0401f0112fa8",
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.09,
+   "order_flip_rate": 0.2215,
+   "schema_valid_rate": 0.9987,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.0227,
+   "accuracy_at_t": 1,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "banking77",
+     "decision_score": 62.4389,
+     "ci_low": 55.9178,
+     "ci_high": 68.8961,
+     "accuracy": 0.768
+    }
+   ],
+   "run_ids": [
+    "qwen3.8-flash__banking77__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/qwen3.8-flash__banking77__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "mistral-medium-3.5",
+   "primitive": "choice",
+   "model_id": "mistralai/mistral-medium-3-5",
+   "resolved_model": "mistralai/mistral-medium-3-5",
+   "display_name": "Mistral Medium 3.5",
+   "organization": "Mistral AI",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Mistral",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 59.4547,
+   "ci_low": 54.2695,
+   "ci_high": 64.8301,
+   "rank_ub": 5,
+   "accuracy": 0.7447,
+   "acc_ci_low": 0.7013,
+   "acc_ci_high": 0.7887,
+   "ece_10_bin": 0.0807,
+   "ece_ci": [
+    0.059,
+    0.1168
+   ],
+   "loss": 0.4002,
+   "cost_per_1k": 1.515244,
+   "price_asof": "2026-09-18",
+   "p50_ms": 936,
+   "p95_ms": 1444,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1493,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.0234,
+   "order_flip_rate": 0.2218,
+   "schema_valid_rate": 0.9953,
+   "refusal_rate": 0,
+   "coverage_at_t": 0,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "banking77",
+     "decision_score": 59.4547,
+     "ci_low": 54.2695,
+     "ci_high": 64.8301,
+     "accuracy": 0.7447
+    }
+   ],
+   "run_ids": [
+    "mistral-medium-3.5__banking77__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/mistral-medium-3.5__banking77__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "mercury-2.5",
+   "primitive": "choice",
+   "model_id": "inception/mercury-2.5",
+   "resolved_model": "inception/mercury-2.5",
+   "display_name": "Mercury 2.5",
+   "organization": "Inception",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Inception",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 54.0395,
+   "ci_low": 47.8178,
+   "ci_high": 60.6156,
+   "rank_ub": 7,
+   "accuracy": 0.7033,
+   "acc_ci_low": 0.6613,
+   "acc_ci_high": 0.7473,
+   "ece_10_bin": 0.1044,
+   "ece_ci": [
+    0.0658,
+    0.1402
+   ],
+   "loss": 0.4536,
+   "cost_per_1k": 0.03606,
+   "price_asof": "2026-09-18",
+   "p50_ms": 638,
+   "p95_ms": 1478,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1495,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.1376,
+   "order_flip_rate": 0.3615,
+   "schema_valid_rate": 0.9967,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.0147,
+   "accuracy_at_t": 1,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "banking77",
+     "decision_score": 54.0395,
+     "ci_low": 47.8178,
+     "ci_high": 60.6156,
+     "accuracy": 0.7033
+    }
+   ],
+   "run_ids": [
+    "mercury-2.5__banking77__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/mercury-2.5__banking77__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "label-prior",
+   "primitive": "choice",
+   "model_id": null,
+   "resolved_model": null,
+   "display_name": "Label prior",
+   "organization": "—",
+   "interface": "baseline",
+   "adapter": null,
+   "adapter_version": null,
+   "probability_source": "constant",
+   "probability_host": "—",
+   "reasoning": "—",
+   "temperature": "—",
+   "verified": true,
+   "decision_score": 0,
+   "ci_low": 0,
+   "ci_high": 0,
+   "rank_ub": 8,
+   "accuracy": 0.0133,
+   "acc_ci_low": 0.0033,
+   "acc_ci_high": 0.0267,
+   "ece_10_bin": 0,
+   "ece_ci": [
+    0,
+    0.0133
+   ],
+   "loss": 0.9869,
+   "cost_per_1k": 0,
+   "price_asof": null,
+   "p50_ms": null,
+   "p95_ms": null,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": null,
+   "harness_commits": [],
+   "repeat_flip_rate": 0,
+   "order_flip_rate": 0,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "banking77",
+     "decision_score": 0,
+     "ci_low": 0,
+     "ci_high": 0,
+     "accuracy": 0.0133
+    }
+   ],
+   "run_ids": [],
+   "logs": []
+  },
+  {
+   "slug": "jev",
+   "primitive": "score",
+   "model_id": "typesafe-ai/jev",
+   "resolved_model": "typesafe-ai/jev",
+   "display_name": "Jev",
+   "organization": "TypeSafe AI",
+   "interface": "native",
+   "adapter": "ai-sdk experimental_evaluate",
+   "adapter_version": "ai@7.0.106",
+   "probability_source": "native",
+   "probability_host": "Vercel AI Gateway",
+   "reasoning": "—",
+   "temperature": "—",
+   "verified": true,
+   "decision_score": 9.2034,
+   "ci_low": -4.365,
+   "ci_high": 20.9655,
+   "rank_ub": 1,
+   "accuracy": 0.4127,
+   "acc_ci_low": 0.3593,
+   "acc_ci_high": 0.4687,
+   "ece_10_bin": 0.1966,
+   "ece_ci": [
+    0.1486,
+    0.2502
+   ],
+   "loss": 0.1489,
+   "cost_per_1k": 0.036285,
+   "price_asof": "2026-09-18",
+   "p50_ms": 478,
+   "p95_ms": 670,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "6d93f79a2310"
+   ],
+   "repeat_flip_rate": 0.0233,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": null,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0.0033,
+   "per_task": [
+    {
+     "benchmark_id": "helpsteer2",
+     "decision_score": 9.2034,
+     "ci_low": -4.365,
+     "ci_high": 20.9655,
+     "accuracy": 0.4127
+    }
+   ],
+   "run_ids": [
+    "jev__helpsteer2__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/jev__helpsteer2__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "glm-5.3",
+   "primitive": "score",
+   "model_id": "z-ai/glm-5.3",
+   "resolved_model": "z-ai/glm-5.3",
+   "display_name": "GLM-5.3",
+   "organization": "Z.ai",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Novita (fp8)",
+   "reasoning": "low (mandatory)",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 7.7828,
+   "ci_low": -4.5884,
+   "ci_high": 18.5647,
+   "rank_ub": 1,
+   "accuracy": 0.43,
+   "acc_ci_low": 0.386,
+   "acc_ci_high": 0.4787,
+   "ece_10_bin": 0.1287,
+   "ece_ci": [
+    0.0863,
+    0.1711
+   ],
+   "loss": 0.1512,
+   "cost_per_1k": 0.784848,
+   "price_asof": "2026-09-18",
+   "p50_ms": 2211,
+   "p95_ms": 3631,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.3133,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": null,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "helpsteer2",
+     "decision_score": 7.7828,
+     "ci_low": -4.5884,
+     "ci_high": 18.5647,
+     "accuracy": 0.43
+    }
+   ],
+   "run_ids": [
+    "glm-5.3__helpsteer2__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/glm-5.3__helpsteer2__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "gemini-3.8-flash",
+   "primitive": "score",
+   "model_id": "google/gemini-3.8-flash",
+   "resolved_model": "google/gemini-3.8-flash",
+   "display_name": "Gemini 3.8 Flash",
+   "organization": "Google",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Google AI Studio",
+   "reasoning": "low (mandatory)",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 4.5909,
+   "ci_low": -12.2314,
+   "ci_high": 18.9838,
+   "rank_ub": 1,
+   "accuracy": 0.424,
+   "acc_ci_low": 0.3693,
+   "acc_ci_high": 0.4753,
+   "ece_10_bin": 0.2259,
+   "ece_ci": [
+    0.1809,
+    0.275
+   ],
+   "loss": 0.1564,
+   "cost_per_1k": 1.269273,
+   "price_asof": "2026-09-18",
+   "p50_ms": 1887,
+   "p95_ms": 3979,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.1167,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": null,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0.0007,
+   "per_task": [
+    {
+     "benchmark_id": "helpsteer2",
+     "decision_score": 4.5909,
+     "ci_low": -12.2314,
+     "ci_high": 18.9838,
+     "accuracy": 0.424
+    }
+   ],
+   "run_ids": [
+    "gemini-3.8-flash__helpsteer2__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/gemini-3.8-flash__helpsteer2__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "label-prior",
+   "primitive": "score",
+   "model_id": null,
+   "resolved_model": null,
+   "display_name": "Label prior",
+   "organization": "—",
+   "interface": "baseline",
+   "adapter": null,
+   "adapter_version": null,
+   "probability_source": "constant",
+   "probability_host": "—",
+   "reasoning": "—",
+   "temperature": "—",
+   "verified": true,
+   "decision_score": 0,
+   "ci_low": 0,
+   "ci_high": 0,
+   "rank_ub": 1,
+   "accuracy": 0.4167,
+   "acc_ci_low": 0.36,
+   "acc_ci_high": 0.47,
+   "ece_10_bin": 0,
+   "ece_ci": [
+    0,
+    0.0633
+   ],
+   "loss": 0.1639,
+   "cost_per_1k": 0,
+   "price_asof": null,
+   "p50_ms": null,
+   "p95_ms": null,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": null,
+   "harness_commits": [],
+   "repeat_flip_rate": 0,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": null,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "helpsteer2",
+     "decision_score": 0,
+     "ci_low": 0,
+     "ci_high": 0,
+     "accuracy": 0.4167
+    }
+   ],
+   "run_ids": [],
+   "logs": []
+  },
+  {
+   "slug": "qwen3.8-flash",
+   "primitive": "score",
+   "model_id": "qwen/qwen3.8-flash",
+   "resolved_model": "qwen/qwen3.8-flash",
+   "display_name": "Qwen3.8 Flash",
+   "organization": "Alibaba",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Alibaba",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": -1.3701,
+   "ci_low": -15.4058,
+   "ci_high": 11.5108,
+   "rank_ub": 3,
+   "accuracy": 0.3607,
+   "acc_ci_low": 0.3147,
+   "acc_ci_high": 0.4073,
+   "ece_10_bin": 0.2577,
+   "ece_ci": [
+    0.2134,
+    0.3019
+   ],
+   "loss": 0.1662,
+   "cost_per_1k": 0.125698,
+   "price_asof": "2026-09-18",
+   "p50_ms": 1422,
+   "p95_ms": 2638,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.26,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": null,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "helpsteer2",
+     "decision_score": -1.3701,
+     "ci_low": -15.4058,
+     "ci_high": 11.5108,
+     "accuracy": 0.3607
+    }
+   ],
+   "run_ids": [
+    "qwen3.8-flash__helpsteer2__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/qwen3.8-flash__helpsteer2__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "mercury-2.5",
+   "primitive": "score",
+   "model_id": "inception/mercury-2.5",
+   "resolved_model": "inception/mercury-2.5",
+   "display_name": "Mercury 2.5",
+   "organization": "Inception",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Inception",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": -5.5457,
+   "ci_low": -16.2223,
+   "ci_high": 3.9934,
+   "rank_ub": 3,
+   "accuracy": 0.4173,
+   "acc_ci_low": 0.3727,
+   "acc_ci_high": 0.462,
+   "ece_10_bin": 0.3148,
+   "ece_ci": [
+    0.2731,
+    0.3571
+   ],
+   "loss": 0.173,
+   "cost_per_1k": 0.034331,
+   "price_asof": "2026-09-18",
+   "p50_ms": 618,
+   "p95_ms": 1165,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.3867,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": null,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0.0007,
+   "per_task": [
+    {
+     "benchmark_id": "helpsteer2",
+     "decision_score": -5.5457,
+     "ci_low": -16.2223,
+     "ci_high": 3.9934,
+     "accuracy": 0.4173
+    }
+   ],
+   "run_ids": [
+    "mercury-2.5__helpsteer2__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/mercury-2.5__helpsteer2__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "mistral-medium-3.5",
+   "primitive": "score",
+   "model_id": "mistralai/mistral-medium-3-5",
+   "resolved_model": "mistralai/mistral-medium-3-5",
+   "display_name": "Mistral Medium 3.5",
+   "organization": "Mistral AI",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Mistral",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": -13.7288,
+   "ci_low": -28.2641,
+   "ci_high": -0.1455,
+   "rank_ub": 5,
+   "accuracy": 0.4387,
+   "acc_ci_low": 0.3847,
+   "acc_ci_high": 0.4927,
+   "ece_10_bin": 0.3361,
+   "ece_ci": [
+    0.2816,
+    0.3889
+   ],
+   "loss": 0.1865,
+   "cost_per_1k": 1.325036,
+   "price_asof": "2026-09-18",
+   "p50_ms": 706,
+   "p95_ms": 1178,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.0367,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": null,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0.0213,
+   "per_task": [
+    {
+     "benchmark_id": "helpsteer2",
+     "decision_score": -13.7288,
+     "ci_low": -28.2641,
+     "ci_high": -0.1455,
+     "accuracy": 0.4387
+    }
+   ],
+   "run_ids": [
+    "mistral-medium-3.5__helpsteer2__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/mistral-medium-3.5__helpsteer2__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "deepseek-v4.1-flash",
+   "primitive": "score",
+   "model_id": "deepseek/deepseek-v4.1-flash",
+   "resolved_model": "deepseek/deepseek-v4.1-flash",
+   "display_name": "DeepSeek V4.1 Flash",
+   "organization": "DeepSeek",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · DeepSeek",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": -18.9946,
+   "ci_low": -36.0158,
+   "ci_high": -3.3185,
+   "rank_ub": 7,
+   "accuracy": 0.3467,
+   "acc_ci_low": 0.3047,
+   "acc_ci_high": 0.3867,
+   "ece_10_bin": 0.3348,
+   "ece_ci": [
+    0.2957,
+    0.3735
+   ],
+   "loss": 0.1951,
+   "cost_per_1k": 0.125297,
+   "price_asof": "2026-09-18",
+   "p50_ms": 912,
+   "p95_ms": 1203,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.3433,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": null,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0.0153,
+   "per_task": [
+    {
+     "benchmark_id": "helpsteer2",
+     "decision_score": -18.9946,
+     "ci_low": -36.0158,
+     "ci_high": -3.3185,
+     "accuracy": 0.3467
+    }
+   ],
+   "run_ids": [
+    "deepseek-v4.1-flash__helpsteer2__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/deepseek-v4.1-flash__helpsteer2__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "gemini-3.8-flash",
+   "primitive": "noul",
+   "model_id": "google/gemini-3.8-flash",
+   "resolved_model": "google/gemini-3.8-flash",
+   "display_name": "Gemini 3.8 Flash",
+   "organization": "Google",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Google AI Studio",
+   "reasoning": "low (mandatory)",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 72.983,
+   "ci_low": 62.0659,
+   "ci_high": 82.2398,
+   "rank_ub": 1,
+   "accuracy": 0.9253,
+   "acc_ci_low": 0.8927,
+   "acc_ci_high": 0.9527,
+   "ece_10_bin": 0.0198,
+   "ece_ci": [
+    0.007,
+    0.0469
+   ],
+   "loss": 0.1273,
+   "cost_per_1k": 0.803439,
+   "price_asof": "2026-09-18",
+   "p50_ms": 1854,
+   "p95_ms": 5538,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.0167,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.7307,
+   "accuracy_at_t": 0.9708,
+   "mass_at_conf_1": 0.008,
+   "per_task": [
+    {
+     "benchmark_id": "pubmedqa",
+     "decision_score": 72.983,
+     "ci_low": 62.0659,
+     "ci_high": 82.2398,
+     "accuracy": 0.9253
+    }
+   ],
+   "run_ids": [
+    "gemini-3.8-flash__pubmedqa__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/gemini-3.8-flash__pubmedqa__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "jev",
+   "primitive": "noul",
+   "model_id": "typesafe-ai/jev",
+   "resolved_model": "typesafe-ai/jev",
+   "display_name": "Jev",
+   "organization": "TypeSafe AI",
+   "interface": "native",
+   "adapter": "ai-sdk experimental_evaluate",
+   "adapter_version": "ai@7.0.106",
+   "probability_source": "native",
+   "probability_host": "Vercel AI Gateway",
+   "reasoning": "—",
+   "temperature": "—",
+   "verified": true,
+   "decision_score": 69.0274,
+   "ci_low": 59.7741,
+   "ci_high": 76.5459,
+   "rank_ub": 1,
+   "accuracy": 0.9127,
+   "acc_ci_low": 0.8787,
+   "acc_ci_high": 0.9433,
+   "ece_10_bin": 0.0504,
+   "ece_ci": [
+    0.0321,
+    0.0812
+   ],
+   "loss": 0.1459,
+   "cost_per_1k": 0.028535,
+   "price_asof": "2026-09-18",
+   "p50_ms": 438,
+   "p95_ms": 653,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "6d93f79a2310"
+   ],
+   "repeat_flip_rate": 0,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.49,
+   "accuracy_at_t": 0.9864,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "pubmedqa",
+     "decision_score": 69.0274,
+     "ci_low": 59.7741,
+     "ci_high": 76.5459,
+     "accuracy": 0.9127
+    }
+   ],
+   "run_ids": [
+    "jev__pubmedqa__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/jev__pubmedqa__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "qwen3.8-flash",
+   "primitive": "noul",
+   "model_id": "qwen/qwen3.8-flash",
+   "resolved_model": "qwen/qwen3.8-flash",
+   "display_name": "Qwen3.8 Flash",
+   "organization": "Alibaba",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Alibaba",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 62.4422,
+   "ci_low": 50.905,
+   "ci_high": 72.5479,
+   "rank_ub": 2,
+   "accuracy": 0.8967,
+   "acc_ci_low": 0.8627,
+   "acc_ci_high": 0.9267,
+   "ece_10_bin": 0.0255,
+   "ece_ci": [
+    0.0081,
+    0.0587
+   ],
+   "loss": 0.177,
+   "cost_per_1k": 0.08613,
+   "price_asof": "2026-09-18",
+   "p50_ms": 1088,
+   "p95_ms": 3515,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.0467,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.7227,
+   "accuracy_at_t": 0.9391,
+   "mass_at_conf_1": 0.0067,
+   "per_task": [
+    {
+     "benchmark_id": "pubmedqa",
+     "decision_score": 62.4422,
+     "ci_low": 50.905,
+     "ci_high": 72.5479,
+     "accuracy": 0.8967
+    }
+   ],
+   "run_ids": [
+    "qwen3.8-flash__pubmedqa__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/qwen3.8-flash__pubmedqa__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "glm-5.3",
+   "primitive": "noul",
+   "model_id": "z-ai/glm-5.3",
+   "resolved_model": "z-ai/glm-5.3",
+   "display_name": "GLM-5.3",
+   "organization": "Z.ai",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Novita (fp8)",
+   "reasoning": "low (mandatory)",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 60.6328,
+   "ci_low": 49.9596,
+   "ci_high": 69.8189,
+   "rank_ub": 3,
+   "accuracy": 0.8867,
+   "acc_ci_low": 0.8533,
+   "acc_ci_high": 0.916,
+   "ece_10_bin": 0.0202,
+   "ece_ci": [
+    0.0096,
+    0.0458
+   ],
+   "loss": 0.1855,
+   "cost_per_1k": 0.512414,
+   "price_asof": "2026-09-18",
+   "p50_ms": 1757,
+   "p95_ms": 2879,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.0533,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.45,
+   "accuracy_at_t": 0.9674,
+   "mass_at_conf_1": 0.0027,
+   "per_task": [
+    {
+     "benchmark_id": "pubmedqa",
+     "decision_score": 60.6328,
+     "ci_low": 49.9596,
+     "ci_high": 69.8189,
+     "accuracy": 0.8867
+    }
+   ],
+   "run_ids": [
+    "glm-5.3__pubmedqa__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/glm-5.3__pubmedqa__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "mistral-medium-3.5",
+   "primitive": "noul",
+   "model_id": "mistralai/mistral-medium-3-5",
+   "resolved_model": "mistralai/mistral-medium-3-5",
+   "display_name": "Mistral Medium 3.5",
+   "organization": "Mistral AI",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Mistral",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 58.0327,
+   "ci_low": 45.3414,
+   "ci_high": 69.8002,
+   "rank_ub": 3,
+   "accuracy": 0.888,
+   "acc_ci_low": 0.8527,
+   "acc_ci_high": 0.922,
+   "ece_10_bin": 0.0523,
+   "ece_ci": [
+    0.0249,
+    0.0895
+   ],
+   "loss": 0.1978,
+   "cost_per_1k": 0.874716,
+   "price_asof": "2026-09-18",
+   "p50_ms": 533,
+   "p95_ms": 917,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.01,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.6507,
+   "accuracy_at_t": 0.9549,
+   "mass_at_conf_1": 0.142,
+   "per_task": [
+    {
+     "benchmark_id": "pubmedqa",
+     "decision_score": 58.0327,
+     "ci_low": 45.3414,
+     "ci_high": 69.8002,
+     "accuracy": 0.888
+    }
+   ],
+   "run_ids": [
+    "mistral-medium-3.5__pubmedqa__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/mistral-medium-3.5__pubmedqa__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "mercury-2.5",
+   "primitive": "noul",
+   "model_id": "inception/mercury-2.5",
+   "resolved_model": "inception/mercury-2.5",
+   "display_name": "Mercury 2.5",
+   "organization": "Inception",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · Inception",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 55.6583,
+   "ci_low": 44.8114,
+   "ci_high": 65.4167,
+   "rank_ub": 3,
+   "accuracy": 0.8713,
+   "acc_ci_low": 0.84,
+   "acc_ci_high": 0.9013,
+   "ece_10_bin": 0.0468,
+   "ece_ci": [
+    0.0249,
+    0.0779
+   ],
+   "loss": 0.2089,
+   "cost_per_1k": 0.022595,
+   "price_asof": "2026-09-18",
+   "p50_ms": 584,
+   "p95_ms": 1036,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.1,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.7247,
+   "accuracy_at_t": 0.9246,
+   "mass_at_conf_1": 0.0107,
+   "per_task": [
+    {
+     "benchmark_id": "pubmedqa",
+     "decision_score": 55.6583,
+     "ci_low": 44.8114,
+     "ci_high": 65.4167,
+     "accuracy": 0.8713
+    }
+   ],
+   "run_ids": [
+    "mercury-2.5__pubmedqa__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/mercury-2.5__pubmedqa__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "deepseek-v4.1-flash",
+   "primitive": "noul",
+   "model_id": "deepseek/deepseek-v4.1-flash",
+   "resolved_model": "deepseek/deepseek-v4.1-flash",
+   "display_name": "DeepSeek V4.1 Flash",
+   "organization": "DeepSeek",
+   "interface": "adapter",
+   "adapter": "jevals-llm",
+   "adapter_version": "0383a0e3e592",
+   "probability_source": "verbalized",
+   "probability_host": "OpenRouter · DeepSeek",
+   "reasoning": "none",
+   "temperature": "provider default",
+   "verified": true,
+   "decision_score": 47.5001,
+   "ci_low": 34.7497,
+   "ci_high": 59.0847,
+   "rank_ub": 7,
+   "accuracy": 0.8367,
+   "acc_ci_low": 0.7987,
+   "acc_ci_high": 0.8727,
+   "ece_10_bin": 0.0616,
+   "ece_ci": [
+    0.0318,
+    0.0968
+   ],
+   "loss": 0.2474,
+   "cost_per_1k": 0.078411,
+   "price_asof": "2026-09-18",
+   "p50_ms": 838,
+   "p95_ms": 1123,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": [
+    "2026-09-18",
+    "2026-09-18"
+   ],
+   "harness_commits": [
+    "4da1b6d6bc57"
+   ],
+   "repeat_flip_rate": 0.0667,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0.5413,
+   "accuracy_at_t": 0.9298,
+   "mass_at_conf_1": 0.1947,
+   "per_task": [
+    {
+     "benchmark_id": "pubmedqa",
+     "decision_score": 47.5001,
+     "ci_low": 34.7497,
+     "ci_high": 59.0847,
+     "accuracy": 0.8367
+    }
+   ],
+   "run_ids": [
+    "deepseek-v4.1-flash__pubmedqa__0.1.0"
+   ],
+   "logs": [
+    "/data/runs/deepseek-v4.1-flash__pubmedqa__0.1.0.jsonl"
+   ]
+  },
+  {
+   "slug": "label-prior",
+   "primitive": "noul",
+   "model_id": null,
+   "resolved_model": null,
+   "display_name": "Label prior",
+   "organization": "—",
+   "interface": "baseline",
+   "adapter": null,
+   "adapter_version": null,
+   "probability_source": "constant",
+   "probability_host": "—",
+   "reasoning": "—",
+   "temperature": "—",
+   "verified": true,
+   "decision_score": 0,
+   "ci_low": 0,
+   "ci_high": 0,
+   "rank_ub": 8,
+   "accuracy": 0.62,
+   "acc_ci_low": 0.5667,
+   "acc_ci_high": 0.6733,
+   "ece_10_bin": 0,
+   "ece_ci": [
+    0,
+    0.0633
+   ],
+   "loss": 0.4712,
+   "cost_per_1k": 0,
+   "price_asof": null,
+   "p50_ms": null,
+   "p95_ms": null,
+   "n_items": 300,
+   "n_repeats": 5,
+   "n_answered": 1500,
+   "run_window": null,
+   "harness_commits": [],
+   "repeat_flip_rate": 0,
+   "order_flip_rate": null,
+   "schema_valid_rate": 1,
+   "refusal_rate": 0,
+   "coverage_at_t": 0,
+   "accuracy_at_t": null,
+   "mass_at_conf_1": 0,
+   "per_task": [
+    {
+     "benchmark_id": "pubmedqa",
+     "decision_score": 0,
+     "ci_low": 0,
+     "ci_high": 0,
+     "accuracy": 0.62
+    }
+   ],
+   "run_ids": [],
+   "logs": []
+  }
+ ]
+}

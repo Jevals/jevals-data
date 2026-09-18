@@ -1,0 +1,13 @@
+{
+ "version": "0.1.0",
+ "benches": [
+  "banking77",
+  "helpsteer2",
+  "pubmedqa"
+ ],
+ "gate_t": {
+  "choice": 0.96,
+  "score": null,
+  "noul": 0.91
+ }
+}

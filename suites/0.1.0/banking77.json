@@ -1,0 +1,2059 @@
+{
+ "id": "banking77",
+ "version": "0.1.0",
+ "primitive": "choice",
+ "title": "Banking77",
+ "dataset": "mteb/banking77",
+ "config": "default",
+ "split": "test",
+ "hf_revision": "18072d2685ea682290f7b8924d94c62acc19c0b2",
+ "license": "CC-BY-4.0 (Banking77, PolyAI; mirror tagged MIT)",
+ "source_url": "https://huggingface.co/datasets/mteb/banking77",
+ "instructions": "Which intent does this banking customer's message express?",
+ "options": [
+  "activate_my_card",
+  "age_limit",
+  "apple_pay_or_google_pay",
+  "atm_support",
+  "automatic_top_up",
+  "balance_not_updated_after_bank_transfer",
+  "balance_not_updated_after_cheque_or_cash_deposit",
+  "beneficiary_not_allowed",
+  "cancel_transfer",
+  "card_about_to_expire",
+  "card_acceptance",
+  "card_arrival",
+  "card_delivery_estimate",
+  "card_linking",
+  "card_not_working",
+  "card_payment_fee_charged",
+  "card_payment_not_recognised",
+  "card_payment_wrong_exchange_rate",
+  "card_swallowed",
+  "cash_withdrawal_charge",
+  "cash_withdrawal_not_recognised",
+  "change_pin",
+  "compromised_card",
+  "contactless_not_working",
+  "country_support",
+  "declined_card_payment",
+  "declined_cash_withdrawal",
+  "declined_transfer",
+  "direct_debit_payment_not_recognised",
+  "disposable_card_limits",
+  "edit_personal_details",
+  "exchange_charge",
+  "exchange_rate",
+  "exchange_via_app",
+  "extra_charge_on_statement",
+  "failed_transfer",
+  "fiat_currency_support",
+  "get_disposable_virtual_card",
+  "get_physical_card",
+  "getting_spare_card",
+  "getting_virtual_card",
+  "lost_or_stolen_card",
+  "lost_or_stolen_phone",
+  "order_physical_card",
+  "passcode_forgotten",
+  "pending_card_payment",
+  "pending_cash_withdrawal",
+  "pending_top_up",
+  "pending_transfer",
+  "pin_blocked",
+  "receiving_money",
+  "Refund_not_showing_up",
+  "request_refund",
+  "reverted_card_payment?",
+  "supported_cards_and_currencies",
+  "terminate_account",
+  "top_up_by_bank_transfer_charge",
+  "top_up_by_card_charge",
+  "top_up_by_cash_or_cheque",
+  "top_up_failed",
+  "top_up_limits",
+  "top_up_reverted",
+  "topping_up_by_card",
+  "transaction_charged_twice",
+  "transfer_fee_charged",
+  "transfer_into_account",
+  "transfer_not_received_by_recipient",
+  "transfer_timing",
+  "unable_to_verify_identity",
+  "verify_my_identity",
+  "verify_source_of_funds",
+  "verify_top_up",
+  "virtual_card_not_working",
+  "visa_or_mastercard",
+  "why_verify_identity",
+  "wrong_amount_of_cash_received",
+  "wrong_exchange_rate_for_cash_withdrawal"
+ ],
+ "criteria": {
+  "activate_my_card": null,
+  "age_limit": null,
+  "apple_pay_or_google_pay": null,
+  "atm_support": null,
+  "automatic_top_up": null,
+  "balance_not_updated_after_bank_transfer": null,
+  "balance_not_updated_after_cheque_or_cash_deposit": null,
+  "beneficiary_not_allowed": null,
+  "cancel_transfer": null,
+  "card_about_to_expire": null,
+  "card_acceptance": null,
+  "card_arrival": null,
+  "card_delivery_estimate": null,
+  "card_linking": null,
+  "card_not_working": null,
+  "card_payment_fee_charged": null,
+  "card_payment_not_recognised": null,
+  "card_payment_wrong_exchange_rate": null,
+  "card_swallowed": null,
+  "cash_withdrawal_charge": null,
+  "cash_withdrawal_not_recognised": null,
+  "change_pin": null,
+  "compromised_card": null,
+  "contactless_not_working": null,
+  "country_support": null,
+  "declined_card_payment": null,
+  "declined_cash_withdrawal": null,
+  "declined_transfer": null,
+  "direct_debit_payment_not_recognised": null,
+  "disposable_card_limits": null,
+  "edit_personal_details": null,
+  "exchange_charge": null,
+  "exchange_rate": null,
+  "exchange_via_app": null,
+  "extra_charge_on_statement": null,
+  "failed_transfer": null,
+  "fiat_currency_support": null,
+  "get_disposable_virtual_card": null,
+  "get_physical_card": null,
+  "getting_spare_card": null,
+  "getting_virtual_card": null,
+  "lost_or_stolen_card": null,
+  "lost_or_stolen_phone": null,
+  "order_physical_card": null,
+  "passcode_forgotten": null,
+  "pending_card_payment": null,
+  "pending_cash_withdrawal": null,
+  "pending_top_up": null,
+  "pending_transfer": null,
+  "pin_blocked": null,
+  "receiving_money": null,
+  "Refund_not_showing_up": null,
+  "request_refund": null,
+  "reverted_card_payment?": null,
+  "supported_cards_and_currencies": null,
+  "terminate_account": null,
+  "top_up_by_bank_transfer_charge": null,
+  "top_up_by_card_charge": null,
+  "top_up_by_cash_or_cheque": null,
+  "top_up_failed": null,
+  "top_up_limits": null,
+  "top_up_reverted": null,
+  "topping_up_by_card": null,
+  "transaction_charged_twice": null,
+  "transfer_fee_charged": null,
+  "transfer_into_account": null,
+  "transfer_not_received_by_recipient": null,
+  "transfer_timing": null,
+  "unable_to_verify_identity": null,
+  "verify_my_identity": null,
+  "verify_source_of_funds": null,
+  "verify_top_up": null,
+  "virtual_card_not_working": null,
+  "visa_or_mastercard": null,
+  "why_verify_identity": null,
+  "wrong_amount_of_cash_received": null,
+  "wrong_exchange_rate_for_cash_withdrawal": null
+ },
+ "state_fields": [
+  "text"
+ ],
+ "length_cap": 6000,
+ "seed": 20260918,
+ "n_items": 300,
+ "class_counts": {
+  "activate_my_card": 4,
+  "age_limit": 4,
+  "apple_pay_or_google_pay": 4,
+  "atm_support": 3,
+  "automatic_top_up": 4,
+  "balance_not_updated_after_bank_transfer": 4,
+  "balance_not_updated_after_cheque_or_cash_deposit": 4,
+  "beneficiary_not_allowed": 4,
+  "cancel_transfer": 4,
+  "card_about_to_expire": 4,
+  "card_acceptance": 4,
+  "card_arrival": 4,
+  "card_delivery_estimate": 4,
+  "card_linking": 4,
+  "card_not_working": 4,
+  "card_payment_fee_charged": 4,
+  "card_payment_not_recognised": 4,
+  "card_payment_wrong_exchange_rate": 4,
+  "card_swallowed": 4,
+  "cash_withdrawal_charge": 4,
+  "cash_withdrawal_not_recognised": 4,
+  "change_pin": 4,
+  "compromised_card": 4,
+  "contactless_not_working": 4,
+  "country_support": 4,
+  "declined_card_payment": 4,
+  "declined_cash_withdrawal": 4,
+  "declined_transfer": 4,
+  "direct_debit_payment_not_recognised": 4,
+  "disposable_card_limits": 4,
+  "edit_personal_details": 4,
+  "exchange_charge": 4,
+  "exchange_rate": 4,
+  "exchange_via_app": 3,
+  "extra_charge_on_statement": 4,
+  "failed_transfer": 4,
+  "fiat_currency_support": 4,
+  "get_disposable_virtual_card": 4,
+  "get_physical_card": 4,
+  "getting_spare_card": 4,
+  "getting_virtual_card": 4,
+  "lost_or_stolen_card": 4,
+  "lost_or_stolen_phone": 4,
+  "order_physical_card": 4,
+  "passcode_forgotten": 4,
+  "pending_card_payment": 4,
+  "pending_cash_withdrawal": 4,
+  "pending_top_up": 4,
+  "pending_transfer": 3,
+  "pin_blocked": 4,
+  "receiving_money": 4,
+  "Refund_not_showing_up": 4,
+  "request_refund": 4,
+  "reverted_card_payment?": 4,
+  "supported_cards_and_currencies": 4,
+  "terminate_account": 4,
+  "top_up_by_bank_transfer_charge": 4,
+  "top_up_by_card_charge": 4,
+  "top_up_by_cash_or_cheque": 4,
+  "top_up_failed": 4,
+  "top_up_limits": 4,
+  "top_up_reverted": 4,
+  "topping_up_by_card": 4,
+  "transaction_charged_twice": 4,
+  "transfer_fee_charged": 4,
+  "transfer_into_account": 4,
+  "transfer_not_received_by_recipient": 3,
+  "transfer_timing": 4,
+  "unable_to_verify_identity": 4,
+  "verify_my_identity": 4,
+  "verify_source_of_funds": 4,
+  "verify_top_up": 4,
+  "virtual_card_not_working": 4,
+  "visa_or_mastercard": 3,
+  "why_verify_identity": 3,
+  "wrong_amount_of_cash_received": 3,
+  "wrong_exchange_rate_for_cash_withdrawal": 3
+ },
+ "criteria_hash": "3d98e4b3e675d53f73b7b641d28cbc2552b47a574c102442bf683dad759e0174",
+ "items": [
+  {
+   "item_id": "banking77-2",
+   "row_idx": 2,
+   "state_sha256": "e74cb88e43831226c2d2e746f4487999b105bc98abf54ccd2cf3734e03c781ba",
+   "target": 11
+  },
+  {
+   "item_id": "banking77-6",
+   "row_idx": 6,
+   "state_sha256": "f1ac30bf55cf377df5e9e2408448e3c97c1d8403c3802ca960ab5a65013ea0c2",
+   "target": 11
+  },
+  {
+   "item_id": "banking77-10",
+   "row_idx": 10,
+   "state_sha256": "f6259994258d7268bc78e88f02e4dd5b2d0c0e0b9e3905125aa27fbc1c8061f6",
+   "target": 11
+  },
+  {
+   "item_id": "banking77-23",
+   "row_idx": 23,
+   "state_sha256": "8a8b1a1158751cf49c34ffab96bc77c988928af2a0745ff15293f5c855cbd124",
+   "target": 11
+  },
+  {
+   "item_id": "banking77-51",
+   "row_idx": 51,
+   "state_sha256": "e2ab6619cedccd783d018b4cd6f469ea3a4e9784a15525724ce6a9bfb2da3a6d",
+   "target": 13
+  },
+  {
+   "item_id": "banking77-55",
+   "row_idx": 55,
+   "state_sha256": "f870865a7ab32c5550ec1c110f834a8c402a5536c04013a304410480b9b39686",
+   "target": 13
+  },
+  {
+   "item_id": "banking77-64",
+   "row_idx": 64,
+   "state_sha256": "a68656505bc004cb76a3800e08cfdb2eb108d6db8d3f18f62b6657a3a1220f23",
+   "target": 13
+  },
+  {
+   "item_id": "banking77-69",
+   "row_idx": 69,
+   "state_sha256": "18c0d987f93f3142273fb023b4a9242715eaa446fc935babbf720f87c2741df8",
+   "target": 13
+  },
+  {
+   "item_id": "banking77-86",
+   "row_idx": 86,
+   "state_sha256": "423dadea3a7c5c905d365a267a77a14994a4b059d5dc4e7c034014de6a1b1d5c",
+   "target": 32
+  },
+  {
+   "item_id": "banking77-102",
+   "row_idx": 102,
+   "state_sha256": "1eceb8f6a3fbb1b0e0a918a71b5c588d3b53fa507eb4bea6e1fb100973a7ea07",
+   "target": 32
+  },
+  {
+   "item_id": "banking77-111",
+   "row_idx": 111,
+   "state_sha256": "01bb58fc7f07c84c0bf72da579746cbfcd2ebdd22acb900dfc99111147ed8aeb",
+   "target": 32
+  },
+  {
+   "item_id": "banking77-112",
+   "row_idx": 112,
+   "state_sha256": "c9f29ce9c1d20798204abd597818c3eaba526c44d72f44f109f5a7fd32256991",
+   "target": 32
+  },
+  {
+   "item_id": "banking77-121",
+   "row_idx": 121,
+   "state_sha256": "889a930f757c9653008301a35482795754880bf5d37c3b68f033c3f3b751afe4",
+   "target": 17
+  },
+  {
+   "item_id": "banking77-141",
+   "row_idx": 141,
+   "state_sha256": "1e9afc0e17f80c8aa1f4ce07f113ababbe324151d80ffd2dbd2e21d944e3cb7c",
+   "target": 17
+  },
+  {
+   "item_id": "banking77-142",
+   "row_idx": 142,
+   "state_sha256": "acf787beb37db040ef02ecb79988cba2ae0e8d6f3c332c4e0e22b7e75b61fcae",
+   "target": 17
+  },
+  {
+   "item_id": "banking77-157",
+   "row_idx": 157,
+   "state_sha256": "c5aeef7e298cd77d7bedfc1281c865e286b15451687baddd35934e6aaafed867",
+   "target": 17
+  },
+  {
+   "item_id": "banking77-162",
+   "row_idx": 162,
+   "state_sha256": "ab43dd3726564b31778c874920bb6aee90e91ab85317ebeac888763261e0f6a8",
+   "target": 34
+  },
+  {
+   "item_id": "banking77-167",
+   "row_idx": 167,
+   "state_sha256": "70678406d6df7ec3d388dea9995fbdbb19ba1488efc5763f710f3ac68e017cbe",
+   "target": 34
+  },
+  {
+   "item_id": "banking77-168",
+   "row_idx": 168,
+   "state_sha256": "07010a8490e7494e214faea37e9577664377c202053393a192eb4fd0f75ec7f8",
+   "target": 34
+  },
+  {
+   "item_id": "banking77-180",
+   "row_idx": 180,
+   "state_sha256": "56b44b0059bebff262bc820c0095403e8415d73ca033ee609cd76579c6c588e9",
+   "target": 34
+  },
+  {
+   "item_id": "banking77-218",
+   "row_idx": 218,
+   "state_sha256": "8afc281d9f2e5bbaa8abd011ac413f6c2894292bc84f3c997e95d06a8cf4a3b6",
+   "target": 46
+  },
+  {
+   "item_id": "banking77-224",
+   "row_idx": 224,
+   "state_sha256": "a22f0a2438f5146b2f28ba58226fa5683ab6a37d2aa4856d1c25a2e64b0e7ab7",
+   "target": 46
+  },
+  {
+   "item_id": "banking77-235",
+   "row_idx": 235,
+   "state_sha256": "cd07d7209d10064e412853e9315a85349c68244878c23ca237bb67667ef9cdfe",
+   "target": 46
+  },
+  {
+   "item_id": "banking77-238",
+   "row_idx": 238,
+   "state_sha256": "2c75e065f220cf363d73bdf60b2a2bd85ea4d6f3f9323ef791d6df69de8b4f52",
+   "target": 46
+  },
+  {
+   "item_id": "banking77-253",
+   "row_idx": 253,
+   "state_sha256": "4e9333f3057d0eec9bb83a26065da3ade67b1b869f5a4a4b80a1705074977a3b",
+   "target": 36
+  },
+  {
+   "item_id": "banking77-258",
+   "row_idx": 258,
+   "state_sha256": "73005bf76cf3624173a1b99759151a0fa3553299e6bcd653d85b3b0446031b3c",
+   "target": 36
+  },
+  {
+   "item_id": "banking77-276",
+   "row_idx": 276,
+   "state_sha256": "7f7b971e917c7d9ee25240437394509a39bd0c47609a4885d0717f66b6b83f3b",
+   "target": 36
+  },
+  {
+   "item_id": "banking77-277",
+   "row_idx": 277,
+   "state_sha256": "c927650777be26658433f80b87b5979d29b51397295f7279088a1c570744f76a",
+   "target": 36
+  },
+  {
+   "item_id": "banking77-290",
+   "row_idx": 290,
+   "state_sha256": "2ace642040a16fb49fa4bb7c4db6fa2bbb2e67c483d278a1b9b25e4702c6e3dc",
+   "target": 12
+  },
+  {
+   "item_id": "banking77-303",
+   "row_idx": 303,
+   "state_sha256": "d78c7cc4376b8874a29cac8aa09b255502f0baaeeb632a039e65d35f4f6b2c86",
+   "target": 12
+  },
+  {
+   "item_id": "banking77-311",
+   "row_idx": 311,
+   "state_sha256": "b70caa92b36f4d87ced0c88b36a8e8484027c4ef23747540699c35932aebd996",
+   "target": 12
+  },
+  {
+   "item_id": "banking77-315",
+   "row_idx": 315,
+   "state_sha256": "f9f9300c931c08bced7f3e6fcc0303c03a39054b0054923563f704ddab766b0e",
+   "target": 12
+  },
+  {
+   "item_id": "banking77-322",
+   "row_idx": 322,
+   "state_sha256": "46b9aea174d08bbffa496f6715f76445e1859ce332d390ad8135d3b7913adf9b",
+   "target": 4
+  },
+  {
+   "item_id": "banking77-326",
+   "row_idx": 326,
+   "state_sha256": "1eacfc5d0cccf53546b2c2f93f41d0f4955890ace3ee34ce816e6addaa6c044a",
+   "target": 4
+  },
+  {
+   "item_id": "banking77-327",
+   "row_idx": 327,
+   "state_sha256": "59afda321892760075728897f6cbf7fb4bdca971c8d2deaf332678303437e24a",
+   "target": 4
+  },
+  {
+   "item_id": "banking77-328",
+   "row_idx": 328,
+   "state_sha256": "22069e4edb570195b38b696990c27889fcfa41c2a881c287468041a5d9f782c4",
+   "target": 4
+  },
+  {
+   "item_id": "banking77-365",
+   "row_idx": 365,
+   "state_sha256": "ba823ecd5cf0c3c596b52c576c4c41dcbc25dd074697b78d70c4f30b3e0cae13",
+   "target": 14
+  },
+  {
+   "item_id": "banking77-381",
+   "row_idx": 381,
+   "state_sha256": "6f2b74a3501e75e8155e206fcf238de96863693d3510d23db27692ae47357f7c",
+   "target": 14
+  },
+  {
+   "item_id": "banking77-382",
+   "row_idx": 382,
+   "state_sha256": "fd352a3e3f34722bf5b4965b758375131f6cb58d690c8dcb26f3ba5e1b505d4f",
+   "target": 14
+  },
+  {
+   "item_id": "banking77-396",
+   "row_idx": 396,
+   "state_sha256": "bc0c733ce124c02a36ea4f0579d9b5d2aec862adf5d4ce03553775a9e52f3a5c",
+   "target": 14
+  },
+  {
+   "item_id": "banking77-420",
+   "row_idx": 420,
+   "state_sha256": "87797abb835d9a0695eec5f362626afcef8356354ad9a998b68c089fc90d1728",
+   "target": 33
+  },
+  {
+   "item_id": "banking77-423",
+   "row_idx": 423,
+   "state_sha256": "6fc53132619be383c130a70243a7cf71eb200a9b40e60f003150c007f838f2cd",
+   "target": 33
+  },
+  {
+   "item_id": "banking77-437",
+   "row_idx": 437,
+   "state_sha256": "0b9b198cc5a83f153262a2985d7437477b4cdd9f22f3c1d9b64375cf3326e5e8",
+   "target": 33
+  },
+  {
+   "item_id": "banking77-464",
+   "row_idx": 464,
+   "state_sha256": "9d5e1caac32a8718780caf2eaaea89c2b471ae5d75cf03c3edad2188568511a5",
+   "target": 41
+  },
+  {
+   "item_id": "banking77-466",
+   "row_idx": 466,
+   "state_sha256": "1fb96f5ea49f6645009eb7724066ae3f345dd6a4070f480f3b95253c1c312084",
+   "target": 41
+  },
+  {
+   "item_id": "banking77-472",
+   "row_idx": 472,
+   "state_sha256": "6d466b4b7a3742cc6e9bd599f8563acafe412e687233d242ff225e28e96eb31c",
+   "target": 41
+  },
+  {
+   "item_id": "banking77-474",
+   "row_idx": 474,
+   "state_sha256": "a6bb1e24491d21ed046d8df75ce41f1486ad237aa54b315f3b9b16e319ab284f",
+   "target": 41
+  },
+  {
+   "item_id": "banking77-479",
+   "row_idx": 479,
+   "state_sha256": "327f0711cbea1084230e72e12b8d3d08657d62d2a3e25a0fb8b7fc815a7a3701",
+   "target": 1
+  },
+  {
+   "item_id": "banking77-481",
+   "row_idx": 481,
+   "state_sha256": "7db2315e20f1812222e234cdfb15d8ec4b8e4530dd9b25fd773c5fa71b331554",
+   "target": 1
+  },
+  {
+   "item_id": "banking77-507",
+   "row_idx": 507,
+   "state_sha256": "decdc9f10d68d7f8c49c321a7918f2100ea48f5cf438dd19e8ec967dde77d3bc",
+   "target": 1
+  },
+  {
+   "item_id": "banking77-510",
+   "row_idx": 510,
+   "state_sha256": "49742d5c9d5832afe2fbde92ab31a8561b23feafd9bc623fa0c66efe0d8aa086",
+   "target": 1
+  },
+  {
+   "item_id": "banking77-521",
+   "row_idx": 521,
+   "state_sha256": "20d4410f77c090e889798c309471b91abc70679cadf71aaa566c4f81b568440f",
+   "target": 49
+  },
+  {
+   "item_id": "banking77-523",
+   "row_idx": 523,
+   "state_sha256": "e036c5a1a7a90d9e340093b76cc573f42eb964b6cba76dc32d86e26c70cf6ac8",
+   "target": 49
+  },
+  {
+   "item_id": "banking77-531",
+   "row_idx": 531,
+   "state_sha256": "c72c519de8d068b66fa80488f8321ac543b5169507fe1df1b0da5d81f8a689db",
+   "target": 49
+  },
+  {
+   "item_id": "banking77-540",
+   "row_idx": 540,
+   "state_sha256": "edeaaa4de93812a116e843b5e88e50d1c30ce200c2b68db5475cdc1293d341b9",
+   "target": 49
+  },
+  {
+   "item_id": "banking77-570",
+   "row_idx": 570,
+   "state_sha256": "dff58e15fc6abcd882a470b6f8a821dea3991ff3a4154ff07299beb2eea71883",
+   "target": 23
+  },
+  {
+   "item_id": "banking77-578",
+   "row_idx": 578,
+   "state_sha256": "930b479bcb00eeeccb3664cac99174ed2b705b1e43f02fd68e058c08a99bf9eb",
+   "target": 23
+  },
+  {
+   "item_id": "banking77-586",
+   "row_idx": 586,
+   "state_sha256": "f48a5125ceb54eb44901ca00d19e6f6efa6ebf7b5b8c7c26a8b257e950e5b965",
+   "target": 23
+  },
+  {
+   "item_id": "banking77-591",
+   "row_idx": 591,
+   "state_sha256": "6ea2d78e0db5ad640b1ce87b7cf9facfbb06c87ebc14f703206c8ff49c65f003",
+   "target": 23
+  },
+  {
+   "item_id": "banking77-605",
+   "row_idx": 605,
+   "state_sha256": "8a739a3ce06cb9ef0226f6f516d6b593df8b26408e8e4eb45252ec57d0edb48b",
+   "target": 56
+  },
+  {
+   "item_id": "banking77-610",
+   "row_idx": 610,
+   "state_sha256": "b4c3cae7a1d4a98ce649d241fa77127f1681cc457e5b3a817899323583cd94bb",
+   "target": 56
+  },
+  {
+   "item_id": "banking77-628",
+   "row_idx": 628,
+   "state_sha256": "d386b4004d78d460e01bc1de8d3955eaa46f1a85ff2cdbf4505b50c82a777604",
+   "target": 56
+  },
+  {
+   "item_id": "banking77-634",
+   "row_idx": 634,
+   "state_sha256": "39c259221dd6f505df3cb1885a3d1c9627b3d039b2043d0a180fb9bc0fb7c38d",
+   "target": 56
+  },
+  {
+   "item_id": "banking77-645",
+   "row_idx": 645,
+   "state_sha256": "3893db929bcd84fe0b9a86e8e7fed7a2bf20b7a7addc3bb5ec7954640035dc4e",
+   "target": 47
+  },
+  {
+   "item_id": "banking77-653",
+   "row_idx": 653,
+   "state_sha256": "6cab65169326682c43a76cf8653b23ccb53f117de30e17749d172adbe4c27299",
+   "target": 47
+  },
+  {
+   "item_id": "banking77-660",
+   "row_idx": 660,
+   "state_sha256": "3762896677abda664e8fac966ec59c1d917c0e38092a2867b612406cde7fbe4a",
+   "target": 47
+  },
+  {
+   "item_id": "banking77-669",
+   "row_idx": 669,
+   "state_sha256": "d5ce2e39370c495b18ceb0fccb83965b67cd432c2d14bb6dd008b8b3bb523bb7",
+   "target": 47
+  },
+  {
+   "item_id": "banking77-701",
+   "row_idx": 701,
+   "state_sha256": "63888b5a0ced1bc3a5cd6211c84016ca75a4cf369d1bf8a5a8d522d3fd151da0",
+   "target": 8
+  },
+  {
+   "item_id": "banking77-702",
+   "row_idx": 702,
+   "state_sha256": "97b9db24ffbf691dd33e7efc727ac8e0301a066d9b215fcfe3b96076dd54d2c3",
+   "target": 8
+  },
+  {
+   "item_id": "banking77-704",
+   "row_idx": 704,
+   "state_sha256": "ca69e58fb8697803d8cd73e6d6553b328ac2e3dd056c32ad8c79395e56c4adc5",
+   "target": 8
+  },
+  {
+   "item_id": "banking77-706",
+   "row_idx": 706,
+   "state_sha256": "df3d2ffc32e559dac32c8291095892f623659d82f16b87b2f9c788dd8d686e40",
+   "target": 8
+  },
+  {
+   "item_id": "banking77-721",
+   "row_idx": 721,
+   "state_sha256": "fc7ece7882e754027ace9454fdef68d50e3d7cdbbe89ae8d54cd58e99e7f08c6",
+   "target": 60
+  },
+  {
+   "item_id": "banking77-726",
+   "row_idx": 726,
+   "state_sha256": "72343339542df0dec7534677399a4778719e890b4f03e1172cd596bfdcdb91be",
+   "target": 60
+  },
+  {
+   "item_id": "banking77-729",
+   "row_idx": 729,
+   "state_sha256": "d460cc5d019e59be5a830e6c16b4354d62f3b57dbe4e7bf9ed63931c8c7465de",
+   "target": 60
+  },
+  {
+   "item_id": "banking77-751",
+   "row_idx": 751,
+   "state_sha256": "88fef5768ca585446f6cb0caf5d4ce64d388997e54d4d6a28a47755316d9411c",
+   "target": 60
+  },
+  {
+   "item_id": "banking77-763",
+   "row_idx": 763,
+   "state_sha256": "941d32610e14e9befa66bde631c43104dca9ad4ecbaf04b6c3ccaf19773a5954",
+   "target": 75
+  },
+  {
+   "item_id": "banking77-767",
+   "row_idx": 767,
+   "state_sha256": "eaff833e9a5c1e1c8a12a86a27942d430c4af9a537465b1cdfecba1e87c03f38",
+   "target": 75
+  },
+  {
+   "item_id": "banking77-785",
+   "row_idx": 785,
+   "state_sha256": "4181748774cb2ba64eee6b9be9382fd4ed318572a0ecef764e260febb17fee9e",
+   "target": 75
+  },
+  {
+   "item_id": "banking77-819",
+   "row_idx": 819,
+   "state_sha256": "58fc1632b309701f4e39f85d6d0cc56e3af4873559f6f729468a80a505ca106e",
+   "target": 15
+  },
+  {
+   "item_id": "banking77-822",
+   "row_idx": 822,
+   "state_sha256": "92e53ceb118b93c0c1ee8649c8e49b766132097eb9ec187e2c339ff90cc87d63",
+   "target": 15
+  },
+  {
+   "item_id": "banking77-827",
+   "row_idx": 827,
+   "state_sha256": "85622b4802e831d67525c7fdc531547c070e1e4944f6a418cb156817a52e2780",
+   "target": 15
+  },
+  {
+   "item_id": "banking77-836",
+   "row_idx": 836,
+   "state_sha256": "060476d6afae7f0c21b387222d5f560a70a7b8be05daf73fae73b636ef569984",
+   "target": 15
+  },
+  {
+   "item_id": "banking77-861",
+   "row_idx": 861,
+   "state_sha256": "c4ae738e073649583bacd305a1f0af4795fd0be4e1c01814198e87156f5b0659",
+   "target": 66
+  },
+  {
+   "item_id": "banking77-872",
+   "row_idx": 872,
+   "state_sha256": "9ebe05a62d4b1035458dec145115297534d0cf1a648f942b9d8facb9a5ba46a7",
+   "target": 66
+  },
+  {
+   "item_id": "banking77-877",
+   "row_idx": 877,
+   "state_sha256": "fed6e4b15404ce945a9af5c3384212d4924f20673cb21a8e16504c14ce4c4f03",
+   "target": 66
+  },
+  {
+   "item_id": "banking77-882",
+   "row_idx": 882,
+   "state_sha256": "de16825bac51d21da38dd77f0e96d369f354920384a6c1c5287444ddfed3c426",
+   "target": 54
+  },
+  {
+   "item_id": "banking77-894",
+   "row_idx": 894,
+   "state_sha256": "9c86be3e2ab45e102b4d664d8915b10a8a660b1f19b9e1d23703e2161ff028db",
+   "target": 54
+  },
+  {
+   "item_id": "banking77-907",
+   "row_idx": 907,
+   "state_sha256": "a428cc8e01a11d9cc12b4c118d9ffe12d2bf588bff31477977b8bf8183511a58",
+   "target": 54
+  },
+  {
+   "item_id": "banking77-911",
+   "row_idx": 911,
+   "state_sha256": "0bd9efd08aa9b071ce8e4b30ef09de1e644d3a34e5a62f7fe969a94aebc5cbfd",
+   "target": 54
+  },
+  {
+   "item_id": "banking77-920",
+   "row_idx": 920,
+   "state_sha256": "0f504000bd0d48e4723e066e64b005ee7beccfdf058e0627431c26baa2c592c4",
+   "target": 40
+  },
+  {
+   "item_id": "banking77-922",
+   "row_idx": 922,
+   "state_sha256": "b530455ef43a847d346acfcfedf592e6b28c965d11e639f6baf6174d2c2e255a",
+   "target": 40
+  },
+  {
+   "item_id": "banking77-955",
+   "row_idx": 955,
+   "state_sha256": "ed983875a74e5dad817fe2678e82ad6f39563b5c9f411c62ad2d1eeff3c42d3f",
+   "target": 40
+  },
+  {
+   "item_id": "banking77-956",
+   "row_idx": 956,
+   "state_sha256": "635706dfe277ffc6c8a3f23df65f0911759ed51c5af0ea5c44b1586cf2703983",
+   "target": 40
+  },
+  {
+   "item_id": "banking77-964",
+   "row_idx": 964,
+   "state_sha256": "711e548b4619be14d7ae067091b7fdeacd5ac43f93ff1e8461862c22222eec5f",
+   "target": 10
+  },
+  {
+   "item_id": "banking77-975",
+   "row_idx": 975,
+   "state_sha256": "2f339dcbe6cbb1da0157db282f39c6c3b69da80ea89c061e7eafa95225a90333",
+   "target": 10
+  },
+  {
+   "item_id": "banking77-978",
+   "row_idx": 978,
+   "state_sha256": "1814bfa2e3494d5d3af068662e5ddabbd91ca70063aa193d212a618536582362",
+   "target": 10
+  },
+  {
+   "item_id": "banking77-988",
+   "row_idx": 988,
+   "state_sha256": "8f39bcb677d7622042205470900780ff738c74281be8231ed0e7f8740eb442f1",
+   "target": 10
+  },
+  {
+   "item_id": "banking77-1000",
+   "row_idx": 1000,
+   "state_sha256": "0fd59ab5df3bff7aefee127916c868ad19dadfec3e0cf340c0dcc53d3631bdf0",
+   "target": 61
+  },
+  {
+   "item_id": "banking77-1003",
+   "row_idx": 1003,
+   "state_sha256": "641d3b99f349ccf3b21e771b62cb128ed70837c4db4b279731ba4b56ae8e6ce3",
+   "target": 61
+  },
+  {
+   "item_id": "banking77-1011",
+   "row_idx": 1011,
+   "state_sha256": "9750a08e8fd35b1334fb4aa3fa6117ec36a4f5fce088b0ea1d8d3d3df0ed64af",
+   "target": 61
+  },
+  {
+   "item_id": "banking77-1028",
+   "row_idx": 1028,
+   "state_sha256": "05d4af83e3714ce6551c9fc801d43a6dc883029b9396a00bdb60b1ef5bb8e2f4",
+   "target": 61
+  },
+  {
+   "item_id": "banking77-1045",
+   "row_idx": 1045,
+   "state_sha256": "e7a5fbf384d46b609d699c310278c54d48b8e7957427b959ff14454effa819ea",
+   "target": 6
+  },
+  {
+   "item_id": "banking77-1054",
+   "row_idx": 1054,
+   "state_sha256": "e277b4e7a55154f21501e17e82c3306114dab6f0e6e1ef4cd0ada2bc7794030c",
+   "target": 6
+  },
+  {
+   "item_id": "banking77-1055",
+   "row_idx": 1055,
+   "state_sha256": "20c7982c5ca0d680808fb1f4f15b29fff615546bc26422b95b5d3b1eec2a4fe6",
+   "target": 6
+  },
+  {
+   "item_id": "banking77-1061",
+   "row_idx": 1061,
+   "state_sha256": "aef04708ff43e783988d8140dc4b1fa136cbec8293ca87adaa1d91bed1ea3f64",
+   "target": 6
+  },
+  {
+   "item_id": "banking77-1079",
+   "row_idx": 1079,
+   "state_sha256": "ac18d0c8714c192a6b4f8ec9625acbe856d77a587115f4fc47aaa8d0247944a3",
+   "target": 16
+  },
+  {
+   "item_id": "banking77-1104",
+   "row_idx": 1104,
+   "state_sha256": "e4d7295db6cf3b914ecca569aca4bff121c0ab0ac4a4ee6971ee80c5e1035d9d",
+   "target": 16
+  },
+  {
+   "item_id": "banking77-1105",
+   "row_idx": 1105,
+   "state_sha256": "55b225f0b2a73c8393460ec3fd8bd81ce34af371536a9fe3c539fdb8675a4823",
+   "target": 16
+  },
+  {
+   "item_id": "banking77-1114",
+   "row_idx": 1114,
+   "state_sha256": "0b08593770d42177845d4a98ceaff70dbfe2aa93c585cc4d5d2d40ebfe56adae",
+   "target": 16
+  },
+  {
+   "item_id": "banking77-1126",
+   "row_idx": 1126,
+   "state_sha256": "f54830f0d246c60fa57e301c70fb8cf9c03918247679edd363516b6622474fa8",
+   "target": 30
+  },
+  {
+   "item_id": "banking77-1147",
+   "row_idx": 1147,
+   "state_sha256": "8ca8afd95f7ee86e95294b6eafab550514a7852e39c80a3d96ac8a03b11181e5",
+   "target": 30
+  },
+  {
+   "item_id": "banking77-1149",
+   "row_idx": 1149,
+   "state_sha256": "d6da58db63e31ab4ca5a3ca1c845bd67c7dec3b439dde5a2984560f0adeb249b",
+   "target": 30
+  },
+  {
+   "item_id": "banking77-1156",
+   "row_idx": 1156,
+   "state_sha256": "2cf8f82980994309a67a076f72d0cadc66fb9dc0ff3efa22d5a819904a06f5f9",
+   "target": 30
+  },
+  {
+   "item_id": "banking77-1167",
+   "row_idx": 1167,
+   "state_sha256": "306b2558828c60af468cd72f05b4a075903405bd91b66271026165a4230283f9",
+   "target": 74
+  },
+  {
+   "item_id": "banking77-1169",
+   "row_idx": 1169,
+   "state_sha256": "f32ca3885bcad035db8cf7f5e1568702913c90d22db609bf73da33de20703d54",
+   "target": 74
+  },
+  {
+   "item_id": "banking77-1185",
+   "row_idx": 1185,
+   "state_sha256": "71cc048262d333632c75347aaeb9a7d609c28462614537bc3bd48a198bb03981",
+   "target": 74
+  },
+  {
+   "item_id": "banking77-1213",
+   "row_idx": 1213,
+   "state_sha256": "4595bf5ae35210533c843c2caf63fe9477fdd2de0d8af4749f81394be9eb095c",
+   "target": 68
+  },
+  {
+   "item_id": "banking77-1219",
+   "row_idx": 1219,
+   "state_sha256": "194e53552e1ac0a0b8ed598861c5a6259caf58bc638357abf69565a825f4830d",
+   "target": 68
+  },
+  {
+   "item_id": "banking77-1227",
+   "row_idx": 1227,
+   "state_sha256": "e8fd2fc78c482185eaec8d458f11eec230acf5affe417de7a04a8dbd9d41f517",
+   "target": 68
+  },
+  {
+   "item_id": "banking77-1232",
+   "row_idx": 1232,
+   "state_sha256": "57261a2cd68d8c56cb0612ce2ef5e9477fad8d5f0ba540d31cc73fe44e6774ce",
+   "target": 68
+  },
+  {
+   "item_id": "banking77-1242",
+   "row_idx": 1242,
+   "state_sha256": "bd68c38d21d46ef9f48f1dcfbd47d341597b18fc0bdee158f52fe4ddea00f937",
+   "target": 38
+  },
+  {
+   "item_id": "banking77-1244",
+   "row_idx": 1244,
+   "state_sha256": "46e0d72196cfe1bb3633690eae228fb85b81ee9bd53e663fb09b05c98f1881e8",
+   "target": 38
+  },
+  {
+   "item_id": "banking77-1269",
+   "row_idx": 1269,
+   "state_sha256": "358bd27d6e3232166076e0d681cd2c5dbb30fd358f535b08f9e7c9d227be6ff4",
+   "target": 38
+  },
+  {
+   "item_id": "banking77-1271",
+   "row_idx": 1271,
+   "state_sha256": "3ada25503470953a7ed98d9efd4b7355007e8db414a8609e4513befdde1ddb09",
+   "target": 38
+  },
+  {
+   "item_id": "banking77-1282",
+   "row_idx": 1282,
+   "state_sha256": "ed01196b1ae4cb3b683d6a078fa301c4824dcc654eff8e9bd9f8cfba3aa4ad8e",
+   "target": 73
+  },
+  {
+   "item_id": "banking77-1305",
+   "row_idx": 1305,
+   "state_sha256": "dd748e9176ca9cdb07d1a671f0950033c16f30bdfa52da6fa2d05069bf8b6bce",
+   "target": 73
+  },
+  {
+   "item_id": "banking77-1307",
+   "row_idx": 1307,
+   "state_sha256": "c78e69dcd71511fbc69619a2dd654e4e4c9891dbf94d0fcb415e665a4f23f7d5",
+   "target": 73
+  },
+  {
+   "item_id": "banking77-1334",
+   "row_idx": 1334,
+   "state_sha256": "4d06f0e03e11507ffd249ab3efd6289fcdc204a1aaf4fb316a084c61a36dde77",
+   "target": 62
+  },
+  {
+   "item_id": "banking77-1335",
+   "row_idx": 1335,
+   "state_sha256": "90f986dc444d9c9235793194c4e9b700440c6618de62205fb6fd04b05c8a6b65",
+   "target": 62
+  },
+  {
+   "item_id": "banking77-1338",
+   "row_idx": 1338,
+   "state_sha256": "6d11ea40d25a332d9ccdc242e40d6a5df9f7609d921492a2a004ff2fb19631b5",
+   "target": 62
+  },
+  {
+   "item_id": "banking77-1341",
+   "row_idx": 1341,
+   "state_sha256": "3f6178d67f2ea39b109b1ce337e4e0fd51bcdbe831c5ce9fc6f47ada882d584f",
+   "target": 62
+  },
+  {
+   "item_id": "banking77-1368",
+   "row_idx": 1368,
+   "state_sha256": "d545ab06c490994639ad2dcb19d5b948b75d080e5946ed6694db9be3af209c8a",
+   "target": 29
+  },
+  {
+   "item_id": "banking77-1391",
+   "row_idx": 1391,
+   "state_sha256": "687039a357c6cbb9b641697f8899028f11b4e31c64c8e9c16a0716cda06f2d18",
+   "target": 29
+  },
+  {
+   "item_id": "banking77-1392",
+   "row_idx": 1392,
+   "state_sha256": "00e712508b74dd65af4f486d73370aac942a1f4be543de6402cf3a0d22b58c63",
+   "target": 29
+  },
+  {
+   "item_id": "banking77-1396",
+   "row_idx": 1396,
+   "state_sha256": "459fc98a6689191387de395cb5eebd8850ea4cb651a16769571047067b5e7f8b",
+   "target": 29
+  },
+  {
+   "item_id": "banking77-1407",
+   "row_idx": 1407,
+   "state_sha256": "2f96a3b7f66afbfb6d2527071d07171e1c4805cc5b77710982d1fd050db2b31e",
+   "target": 22
+  },
+  {
+   "item_id": "banking77-1420",
+   "row_idx": 1420,
+   "state_sha256": "c331ea47b2355c4eb37364db9bc7cf7253978905f80ca7c3c8f6b77d3bdd46fd",
+   "target": 22
+  },
+  {
+   "item_id": "banking77-1426",
+   "row_idx": 1426,
+   "state_sha256": "d97b797aca8d05f4cdfe0e1b71ab01d052daaf5d64a813194f61d7af592f683b",
+   "target": 22
+  },
+  {
+   "item_id": "banking77-1431",
+   "row_idx": 1431,
+   "state_sha256": "09af70aa88509189108abd5f91834e44f2ae972c87dfa436799db2af47220de4",
+   "target": 22
+  },
+  {
+   "item_id": "banking77-1443",
+   "row_idx": 1443,
+   "state_sha256": "d37435f2664c78704ba239e470539dab64539b7d6e694ef9639768c4cf2dac0f",
+   "target": 3
+  },
+  {
+   "item_id": "banking77-1451",
+   "row_idx": 1451,
+   "state_sha256": "c30355bcf17231f248ae8f57921965a92da6487d637c8e245dfb3bd525466a96",
+   "target": 3
+  },
+  {
+   "item_id": "banking77-1471",
+   "row_idx": 1471,
+   "state_sha256": "c8e23c84aaee5167fc1282844e9cf39f2d54c52211b29867c55e2f7d7bb23d32",
+   "target": 3
+  },
+  {
+   "item_id": "banking77-1495",
+   "row_idx": 1495,
+   "state_sha256": "48796318870a594792cf4da52735881f153fc0c7f30c45a5c6dc4e1a436bea7d",
+   "target": 28
+  },
+  {
+   "item_id": "banking77-1498",
+   "row_idx": 1498,
+   "state_sha256": "fa7c4efc2bbe5b0834ca03a217649b5f57b5d177b9eed7f6b257d9e4623c7c76",
+   "target": 28
+  },
+  {
+   "item_id": "banking77-1504",
+   "row_idx": 1504,
+   "state_sha256": "bf19a940f550fe5a390a265554faf3376920e1b32db8f689239f22dbe5d7f32f",
+   "target": 28
+  },
+  {
+   "item_id": "banking77-1510",
+   "row_idx": 1510,
+   "state_sha256": "b64aa08ca4f72c44fdf399b0079fd52e28a4d963053bd0c775a9fa1ca85fba76",
+   "target": 28
+  },
+  {
+   "item_id": "banking77-1519",
+   "row_idx": 1519,
+   "state_sha256": "2d85c75baa3b531c19a82257f71dfcb6223e9642e3479d161bf250cd9e3fc03b",
+   "target": 44
+  },
+  {
+   "item_id": "banking77-1528",
+   "row_idx": 1528,
+   "state_sha256": "296a00d0164b2625c246d69aee4327a96230962b0b053e7a9cbd0b9b7b9b5680",
+   "target": 44
+  },
+  {
+   "item_id": "banking77-1537",
+   "row_idx": 1537,
+   "state_sha256": "6238d82b84306740f71f72837fd63bc9e841266318fe6dbddf8c61c42853f725",
+   "target": 44
+  },
+  {
+   "item_id": "banking77-1552",
+   "row_idx": 1552,
+   "state_sha256": "6d814741c90521297eccf1af62552b40bb3efdbcffbb9f9ff6ea93736d82634d",
+   "target": 44
+  },
+  {
+   "item_id": "banking77-1563",
+   "row_idx": 1563,
+   "state_sha256": "7c94408003d8fed8f9c35ecc15ae01727564fe6209bc67b5f0762c16cc68e1c8",
+   "target": 26
+  },
+  {
+   "item_id": "banking77-1566",
+   "row_idx": 1566,
+   "state_sha256": "31d057c117cd5482289c84dd07a03f3060aa32744e4c54e263c6068fd4a67ad9",
+   "target": 26
+  },
+  {
+   "item_id": "banking77-1573",
+   "row_idx": 1573,
+   "state_sha256": "573dddde4aab55e252df8cf57bfe5b3ac9754884e5e1696dd1c59cb3d53e1d0e",
+   "target": 26
+  },
+  {
+   "item_id": "banking77-1594",
+   "row_idx": 1594,
+   "state_sha256": "2bb37a912931a99613afbb632971f32bd6fee4e3ab402264ac64fc3f3367b0bf",
+   "target": 26
+  },
+  {
+   "item_id": "banking77-1599",
+   "row_idx": 1599,
+   "state_sha256": "f993c434c1d4489ca3ae022300925420abc173bcb4af5c1443c941a15108d447",
+   "target": 45
+  },
+  {
+   "item_id": "banking77-1611",
+   "row_idx": 1611,
+   "state_sha256": "20cfc1b634b450165ae5e86a1f335081ee86fb3b4e336da57229349f933803d9",
+   "target": 45
+  },
+  {
+   "item_id": "banking77-1617",
+   "row_idx": 1617,
+   "state_sha256": "3a2dbd6c07f6462d5e135f21a438df6c48982e70e84c4a3b248173645d670f58",
+   "target": 45
+  },
+  {
+   "item_id": "banking77-1628",
+   "row_idx": 1628,
+   "state_sha256": "29eafe189d9e90a426d8a6fb8916f8c9547e6a493e3d0249d23881ee14ad98fd",
+   "target": 45
+  },
+  {
+   "item_id": "banking77-1656",
+   "row_idx": 1656,
+   "state_sha256": "71f36a56ab7914d35f2c3101e231f2b010363673351fd7e72c3b1bd8909e89e6",
+   "target": 42
+  },
+  {
+   "item_id": "banking77-1660",
+   "row_idx": 1660,
+   "state_sha256": "3f714fbedeb1760438c7cc44b24b92678b374061e1234c3cc09dd99a8230c407",
+   "target": 42
+  },
+  {
+   "item_id": "banking77-1668",
+   "row_idx": 1668,
+   "state_sha256": "f6eb40dc45badada0015d002764e804747365b756267d63410513b743abaa0da",
+   "target": 42
+  },
+  {
+   "item_id": "banking77-1671",
+   "row_idx": 1671,
+   "state_sha256": "d7e2696f5868927da64680bf8a54c2c5e6fd02f18ee7c7b96de6112ee936c9aa",
+   "target": 42
+  },
+  {
+   "item_id": "banking77-1683",
+   "row_idx": 1683,
+   "state_sha256": "68e7b004d8111eb0568ec747b17b0ec1b77f66f50d9eaef91c85aee5522e198b",
+   "target": 52
+  },
+  {
+   "item_id": "banking77-1692",
+   "row_idx": 1692,
+   "state_sha256": "f283a6d6076758a031555969a26b4575a95718725c7b00b67d7d4bc29b5bb657",
+   "target": 52
+  },
+  {
+   "item_id": "banking77-1696",
+   "row_idx": 1696,
+   "state_sha256": "3780083cefadb4eead905ad5331c45545a40a835d54bf3f3b2c71c7e986803a6",
+   "target": 52
+  },
+  {
+   "item_id": "banking77-1704",
+   "row_idx": 1704,
+   "state_sha256": "7e0c1ee03598082543e5625881603894c9571453b70c014c7e9f9548c1ee9ce7",
+   "target": 52
+  },
+  {
+   "item_id": "banking77-1719",
+   "row_idx": 1719,
+   "state_sha256": "511349b9e6851e127b226eb8bbb9b82c3edfa63922516080fecfe7089c36f493",
+   "target": 27
+  },
+  {
+   "item_id": "banking77-1724",
+   "row_idx": 1724,
+   "state_sha256": "b99ef54b2a2f3990013945a115ac8469adf2349c70b927102e3c21ecc04bf362",
+   "target": 27
+  },
+  {
+   "item_id": "banking77-1749",
+   "row_idx": 1749,
+   "state_sha256": "2afec9ac4c807d9c95872b77c6d0251061affa4cd05e29369408761316269eeb",
+   "target": 27
+  },
+  {
+   "item_id": "banking77-1755",
+   "row_idx": 1755,
+   "state_sha256": "bce14c50df62f90cc16f88acdc4e8cb99c275678e27410bdb29c326afc3d41a0",
+   "target": 27
+  },
+  {
+   "item_id": "banking77-1762",
+   "row_idx": 1762,
+   "state_sha256": "d40aebe18e64f5dcbb4396417fda8d3867dab5b918b4211dbab73d23cefbb33a",
+   "target": 51
+  },
+  {
+   "item_id": "banking77-1766",
+   "row_idx": 1766,
+   "state_sha256": "1857ac659b2a269a70ce236beaef172707644891dc9e53175ffead507d16c44a",
+   "target": 51
+  },
+  {
+   "item_id": "banking77-1780",
+   "row_idx": 1780,
+   "state_sha256": "e912b2b6e3fbf067e1ea28f52ab469a16ea9125a131b733876f9805506a1aeb5",
+   "target": 51
+  },
+  {
+   "item_id": "banking77-1787",
+   "row_idx": 1787,
+   "state_sha256": "5e38f933b74730daef65a855aa3deadd233676e05e681ae948fb5424502741cf",
+   "target": 51
+  },
+  {
+   "item_id": "banking77-1798",
+   "row_idx": 1798,
+   "state_sha256": "991f7630d11d27b860d1332a91bc46828de59f567052038fccad06fa038a0d66",
+   "target": 25
+  },
+  {
+   "item_id": "banking77-1817",
+   "row_idx": 1817,
+   "state_sha256": "819067620f545605d440a5d798c269c6663f71ea179ac3c821c7f004aefceaf4",
+   "target": 25
+  },
+  {
+   "item_id": "banking77-1819",
+   "row_idx": 1819,
+   "state_sha256": "3de210ed52a4f2b04611268adfab224fc3eee6e9008214e087579adaf2263372",
+   "target": 25
+  },
+  {
+   "item_id": "banking77-1835",
+   "row_idx": 1835,
+   "state_sha256": "139acf6589f0252b829e15a91bf2d20ea92e1c2a2f14913e2b47a82101e3a805",
+   "target": 25
+  },
+  {
+   "item_id": "banking77-1853",
+   "row_idx": 1853,
+   "state_sha256": "23843b0c661ea2d6675b83da10e2d9bd065218173d5d4e6690bc15573517b270",
+   "target": 48
+  },
+  {
+   "item_id": "banking77-1868",
+   "row_idx": 1868,
+   "state_sha256": "e812b84f54f5671b78041c9d4d5ecb99b98f676920ac5e6d66e6df2a81325546",
+   "target": 48
+  },
+  {
+   "item_id": "banking77-1871",
+   "row_idx": 1871,
+   "state_sha256": "c7a68367df10fb22831c76b43dfa19de26ab06e3c90f6746bdb1e45092ee9302",
+   "target": 48
+  },
+  {
+   "item_id": "banking77-1876",
+   "row_idx": 1876,
+   "state_sha256": "1f7b96f9dd7af0e9b7450f9be77c57f9cb93eed16c2627328cea3474576655b5",
+   "target": 55
+  },
+  {
+   "item_id": "banking77-1883",
+   "row_idx": 1883,
+   "state_sha256": "6e40a1a5725505ac3eeb355df953cdaed302654ed25fa59d090f074d6ed3fc8f",
+   "target": 55
+  },
+  {
+   "item_id": "banking77-1890",
+   "row_idx": 1890,
+   "state_sha256": "cc6ff38bbc23c76621708116c43443c56cc11c66a075797cd768cf9a0db275ca",
+   "target": 55
+  },
+  {
+   "item_id": "banking77-1905",
+   "row_idx": 1905,
+   "state_sha256": "8d8526700522f14f71c4970d004129bc33dd2779456c1de8e25c6494cfb4d6ee",
+   "target": 55
+  },
+  {
+   "item_id": "banking77-1925",
+   "row_idx": 1925,
+   "state_sha256": "bd5a4b991e9e3cfcfbe8a8fe66a97cbb07bc399982a1a17a3835f90c3567687f",
+   "target": 18
+  },
+  {
+   "item_id": "banking77-1931",
+   "row_idx": 1931,
+   "state_sha256": "074d5785341d373fac1fe56728e14be0e7a66a2513485112b0b69cbac21dcfb9",
+   "target": 18
+  },
+  {
+   "item_id": "banking77-1932",
+   "row_idx": 1932,
+   "state_sha256": "55f3bd9b6cf949d879ad24d60c257939b10e755864ded593a92e9664b678b0f1",
+   "target": 18
+  },
+  {
+   "item_id": "banking77-1938",
+   "row_idx": 1938,
+   "state_sha256": "d2b74c608be211995b4487486091a298f06062c89a70d21738134b0d1d29afbd",
+   "target": 18
+  },
+  {
+   "item_id": "banking77-1967",
+   "row_idx": 1967,
+   "state_sha256": "7cf194d76da7dba9235b8662c746cf7009ca0918a25099150ebf2de2610578fc",
+   "target": 63
+  },
+  {
+   "item_id": "banking77-1970",
+   "row_idx": 1970,
+   "state_sha256": "a85a9443ff3f388ed2272a5e1cc3f3a8e721e9ea11a8c69fc1862716220e2e73",
+   "target": 63
+  },
+  {
+   "item_id": "banking77-1993",
+   "row_idx": 1993,
+   "state_sha256": "5094073fffafc7e2c175f5ab3625b2d988313fa89163c81e417dbb140125cb1a",
+   "target": 63
+  },
+  {
+   "item_id": "banking77-1994",
+   "row_idx": 1994,
+   "state_sha256": "29b87687532f0ca64a228913b64d953ed30016e2673d75d72b6de70924bf535f",
+   "target": 63
+  },
+  {
+   "item_id": "banking77-2020",
+   "row_idx": 2020,
+   "state_sha256": "0893aee9eb5597d5cfa6a895633a8168468f9f1eca1593fd0c3004e823e4aaea",
+   "target": 70
+  },
+  {
+   "item_id": "banking77-2026",
+   "row_idx": 2026,
+   "state_sha256": "82bb85ded9f884327cbd3e319336717aac5b1de3787851c018fe4591649d23f0",
+   "target": 70
+  },
+  {
+   "item_id": "banking77-2030",
+   "row_idx": 2030,
+   "state_sha256": "e018079ca32fa6f367f664eae4c5bc7fc27a2bbcdf09d76c70dfa59b74ff0431",
+   "target": 70
+  },
+  {
+   "item_id": "banking77-2033",
+   "row_idx": 2033,
+   "state_sha256": "944ff31a99341aef0e0dcf3391b515e1ca032ccd8e015c092f1f23bb201f9c81",
+   "target": 70
+  },
+  {
+   "item_id": "banking77-2038",
+   "row_idx": 2038,
+   "state_sha256": "9ad9b35a9342dcb99cb45a0c222d524b295cdc4deeb88f1b7fced1e71c462f65",
+   "target": 67
+  },
+  {
+   "item_id": "banking77-2044",
+   "row_idx": 2044,
+   "state_sha256": "2dc133c6f242696429008c6f26ed30bd02af9df2b28f821d3ba6b6e533ddf53f",
+   "target": 67
+  },
+  {
+   "item_id": "banking77-2065",
+   "row_idx": 2065,
+   "state_sha256": "df04c692b78f60c50a126a726e06e40233c413f804a5b8c1f5851080d6306b27",
+   "target": 67
+  },
+  {
+   "item_id": "banking77-2068",
+   "row_idx": 2068,
+   "state_sha256": "b408a181b8b4f4d973dc5eeab3fa4b9bf5553506c5493daaaf752e91a17b6342",
+   "target": 67
+  },
+  {
+   "item_id": "banking77-2076",
+   "row_idx": 2076,
+   "state_sha256": "140be85a8394d9f6e52dcc9c92f6b6db9999dc172ddef337f4047b065f38e450",
+   "target": 53
+  },
+  {
+   "item_id": "banking77-2077",
+   "row_idx": 2077,
+   "state_sha256": "1a413c49255229b3503f42d0fb41cb12844dc431fe9c1813045e53a85f464c56",
+   "target": 53
+  },
+  {
+   "item_id": "banking77-2100",
+   "row_idx": 2100,
+   "state_sha256": "53d6db9e1d354b72f46d26ec1a9ae61604d3b2f0ccea667d4e490e58fa0a0746",
+   "target": 53
+  },
+  {
+   "item_id": "banking77-2114",
+   "row_idx": 2114,
+   "state_sha256": "8fb0a62fddb591014652fe7eacf97cc47c6378e267e206541cea4e9e74af44a8",
+   "target": 53
+  },
+  {
+   "item_id": "banking77-2119",
+   "row_idx": 2119,
+   "state_sha256": "cd07f5d68e23ddd7f9da4fc718d70fe1c13be02f8cefe2853e6ffa1e83d313c0",
+   "target": 21
+  },
+  {
+   "item_id": "banking77-2122",
+   "row_idx": 2122,
+   "state_sha256": "f83a6f4e0bfcd36bfb2ce9ce22792fdda285bc0820aaa2b68bd76208d5a52450",
+   "target": 21
+  },
+  {
+   "item_id": "banking77-2138",
+   "row_idx": 2138,
+   "state_sha256": "f446434a33f80fb4d5a4626579c18863a80b8ff9bab5e9905d42fcba7cf1a4b5",
+   "target": 21
+  },
+  {
+   "item_id": "banking77-2140",
+   "row_idx": 2140,
+   "state_sha256": "58455919d07e98e44c198d7345e77601dd3b4aea402df5ef38d9bff8f5966e56",
+   "target": 21
+  },
+  {
+   "item_id": "banking77-2164",
+   "row_idx": 2164,
+   "state_sha256": "96c6ce858fd0a1694a5b79b2d3e7cdf9b7e14d01d64f2a09f1f6010840d0c095",
+   "target": 7
+  },
+  {
+   "item_id": "banking77-2169",
+   "row_idx": 2169,
+   "state_sha256": "b29280ad3076a7c0ad8221026f12bde6a4c2ca5d98c0e71340d04677bfbaae17",
+   "target": 7
+  },
+  {
+   "item_id": "banking77-2175",
+   "row_idx": 2175,
+   "state_sha256": "477001518a82f1490fcea7310cb9cc9e2c817fea6a0b0b2c5469cb1593937708",
+   "target": 7
+  },
+  {
+   "item_id": "banking77-2187",
+   "row_idx": 2187,
+   "state_sha256": "4cba469c88a63a13a3944d029afcc53e9b937bae6238927d65f1efe1362717ba",
+   "target": 7
+  },
+  {
+   "item_id": "banking77-2199",
+   "row_idx": 2199,
+   "state_sha256": "6ba0a8aedb295c2dca798843acd01f8d3cb5b5acce663f6905ea3a743d08914c",
+   "target": 64
+  },
+  {
+   "item_id": "banking77-2206",
+   "row_idx": 2206,
+   "state_sha256": "d166293be3bff5e1b58b9fea2e16538fc5e079016708b2e667756e3e09b8e78c",
+   "target": 64
+  },
+  {
+   "item_id": "banking77-2207",
+   "row_idx": 2207,
+   "state_sha256": "973aafa1f2449cd4f38525810e9fab044adca3f81c678d35bd330f67ee156324",
+   "target": 64
+  },
+  {
+   "item_id": "banking77-2208",
+   "row_idx": 2208,
+   "state_sha256": "b8ee8323574327ca12a929f7964ff90b11e392924f93d0ee07885535f80e1f66",
+   "target": 64
+  },
+  {
+   "item_id": "banking77-2236",
+   "row_idx": 2236,
+   "state_sha256": "0da28fbc72f609c368fda3b4b6fd2103959960d962bee70881fa6387c875e89d",
+   "target": 50
+  },
+  {
+   "item_id": "banking77-2237",
+   "row_idx": 2237,
+   "state_sha256": "504648bef1f2462dccd670e3982be2abfdebd1669afb48af2d9bc574ea1c41f6",
+   "target": 50
+  },
+  {
+   "item_id": "banking77-2251",
+   "row_idx": 2251,
+   "state_sha256": "1cbc72d8b05b9f46ea96cdb07d6cb805630729fb85762a63ce2ea95f84e5a1d8",
+   "target": 50
+  },
+  {
+   "item_id": "banking77-2267",
+   "row_idx": 2267,
+   "state_sha256": "09a2be3b16fb67a46c7f83c4865629b772a2513d3f659cd52439cf591f3e1640",
+   "target": 50
+  },
+  {
+   "item_id": "banking77-2279",
+   "row_idx": 2279,
+   "state_sha256": "3f25f6cfcd487486d965c7afbf8177f40b29a8a3f3f976c93dc8422095e1001f",
+   "target": 35
+  },
+  {
+   "item_id": "banking77-2288",
+   "row_idx": 2288,
+   "state_sha256": "718f44686fd2ce829493414647c98cba0ee7be851227de027e16943e29d5ea3e",
+   "target": 35
+  },
+  {
+   "item_id": "banking77-2293",
+   "row_idx": 2293,
+   "state_sha256": "6c8e5c8441c1d392d473f414da48958948dd16c8646c368e112795afa8a7691a",
+   "target": 35
+  },
+  {
+   "item_id": "banking77-2308",
+   "row_idx": 2308,
+   "state_sha256": "409478db0931edf0b589a82562d6f8fc528480e1408814f8110684aea3bff357",
+   "target": 35
+  },
+  {
+   "item_id": "banking77-2321",
+   "row_idx": 2321,
+   "state_sha256": "9f97c5ad72aa3b096888d3ea67f241c2fd51d452151ffa06716097e5a8e6d13d",
+   "target": 65
+  },
+  {
+   "item_id": "banking77-2323",
+   "row_idx": 2323,
+   "state_sha256": "b5a110a5199869c0f1c7348a8fc4be0e07ad92cc7c717b7593250f497cd84878",
+   "target": 65
+  },
+  {
+   "item_id": "banking77-2324",
+   "row_idx": 2324,
+   "state_sha256": "b724505bc69184596b8e63f475c9151a331ff251b5585ca1f9b2df25b8cec19a",
+   "target": 65
+  },
+  {
+   "item_id": "banking77-2345",
+   "row_idx": 2345,
+   "state_sha256": "9ad339f18ef8bcd30362aa4af85d8b940a85fb8b7cdbd9137826fb17d6a72ec8",
+   "target": 65
+  },
+  {
+   "item_id": "banking77-2362",
+   "row_idx": 2362,
+   "state_sha256": "aba39844c0d2a053dea770a7609f585eca74507cca103e8fae0c64fa7de37f96",
+   "target": 71
+  },
+  {
+   "item_id": "banking77-2376",
+   "row_idx": 2376,
+   "state_sha256": "e2991b5d389d8f9479c412f1555d3b32078796c440af6f44645307caf9b6e8a1",
+   "target": 71
+  },
+  {
+   "item_id": "banking77-2378",
+   "row_idx": 2378,
+   "state_sha256": "5f9e10c0fd3fb0a72701d95a5f1c04cb1cdbfe80defacd88313ca47ff4568592",
+   "target": 71
+  },
+  {
+   "item_id": "banking77-2392",
+   "row_idx": 2392,
+   "state_sha256": "b89a1c200cd4f49b4f9966f3f36b9c27b6581d52d8c19d4e4c222d9ab2c9e9fc",
+   "target": 71
+  },
+  {
+   "item_id": "banking77-2409",
+   "row_idx": 2409,
+   "state_sha256": "9b397b1a0f7e51bfc95173441b314cda6ff543d51be38090090bf2fc548cc78f",
+   "target": 39
+  },
+  {
+   "item_id": "banking77-2430",
+   "row_idx": 2430,
+   "state_sha256": "59ca66dbeca259ce9401466b17fd51a788f6578c61b88799fef4e8025e02774a",
+   "target": 39
+  },
+  {
+   "item_id": "banking77-2432",
+   "row_idx": 2432,
+   "state_sha256": "af645e76ad02b1189dcf15653f8305940b66e41eed52027ba4678f3813043ce5",
+   "target": 39
+  },
+  {
+   "item_id": "banking77-2433",
+   "row_idx": 2433,
+   "state_sha256": "df7cd0fc8c28fe572c5bddca7e5254e8c6c57b922f0b737a12604b9ad01b6dbd",
+   "target": 39
+  },
+  {
+   "item_id": "banking77-2438",
+   "row_idx": 2438,
+   "state_sha256": "f9e9c65a63106e18bcebfb36cd7e4c2c3df782d2fcc67a0984c924710c61e553",
+   "target": 58
+  },
+  {
+   "item_id": "banking77-2448",
+   "row_idx": 2448,
+   "state_sha256": "89012db5bdccb273f622d8a4b8a0e1b245a5bcc3fe23233ca2cdc26be1e8fbae",
+   "target": 58
+  },
+  {
+   "item_id": "banking77-2458",
+   "row_idx": 2458,
+   "state_sha256": "71184db4dc1a9713679549a294cd365d991d144f4cda937329127951fed6f234",
+   "target": 58
+  },
+  {
+   "item_id": "banking77-2464",
+   "row_idx": 2464,
+   "state_sha256": "3e684eab50e14a66cde92c2f4b4bffc113b3d517b30344af43a0eb8514032f9b",
+   "target": 58
+  },
+  {
+   "item_id": "banking77-2480",
+   "row_idx": 2480,
+   "state_sha256": "348faeb26f18f705d64fea63e9d2a94aa9ceff5ec084cee7697e21e2012b6049",
+   "target": 43
+  },
+  {
+   "item_id": "banking77-2490",
+   "row_idx": 2490,
+   "state_sha256": "1f9305d4a63cef6166367f5c7af2619ddbcf854a252eb1b36524699250808a19",
+   "target": 43
+  },
+  {
+   "item_id": "banking77-2511",
+   "row_idx": 2511,
+   "state_sha256": "c6fe71c1bb04377bb3cd8ad29bf682b0538326582ebda1ec036403a7b7daeea7",
+   "target": 43
+  },
+  {
+   "item_id": "banking77-2514",
+   "row_idx": 2514,
+   "state_sha256": "d56031974c71d8ec1e0c00c84e04a8224c7c015b6e56bd351377e4ed3a18a2c1",
+   "target": 43
+  },
+  {
+   "item_id": "banking77-2522",
+   "row_idx": 2522,
+   "state_sha256": "9c08ea65b840ba441a3b92e4fbfe07b9a5bf132a82b5e8baf3bdf63656ce77b2",
+   "target": 72
+  },
+  {
+   "item_id": "banking77-2543",
+   "row_idx": 2543,
+   "state_sha256": "8a6191705cc3a1924a00b8c3433d29566ab24b192b0239da1ff48b5bd3de3ba9",
+   "target": 72
+  },
+  {
+   "item_id": "banking77-2545",
+   "row_idx": 2545,
+   "state_sha256": "203c9febd031754f58a711f498aa54d368ba310534961364c092301ccbfd60f5",
+   "target": 72
+  },
+  {
+   "item_id": "banking77-2548",
+   "row_idx": 2548,
+   "state_sha256": "3269f36a1afcf23da8f024387303de94e1786b69272ba9944bcedf391c54616b",
+   "target": 72
+  },
+  {
+   "item_id": "banking77-2557",
+   "row_idx": 2557,
+   "state_sha256": "44bf2d1df7997fbb105172a11460006b3ac4985860b5a9fb96f3c2bd1da08648",
+   "target": 76
+  },
+  {
+   "item_id": "banking77-2558",
+   "row_idx": 2558,
+   "state_sha256": "2c1655447cb289391cfa57b0fc35fd5396e7e8b5d2897beed93d728ed7a057fe",
+   "target": 76
+  },
+  {
+   "item_id": "banking77-2575",
+   "row_idx": 2575,
+   "state_sha256": "3b61dcaff7d9832bd8654d8c57cc16d14a4cb579f923a65f49e4f65649f289f9",
+   "target": 76
+  },
+  {
+   "item_id": "banking77-2615",
+   "row_idx": 2615,
+   "state_sha256": "b3f856d6efb639cd887acc87f0d1a7301437e44b779ffdf2b34a8d2f800cf0df",
+   "target": 37
+  },
+  {
+   "item_id": "banking77-2632",
+   "row_idx": 2632,
+   "state_sha256": "c361b8eb2cb755abd46c0d0f5c12ccb45f8956048b7a69a6bea0b71dc5d5400f",
+   "target": 37
+  },
+  {
+   "item_id": "banking77-2633",
+   "row_idx": 2633,
+   "state_sha256": "33dbae3ccf41d00fca05f35eaf0e98e61fa7c9669fc7bd457508c0e6ff6e6389",
+   "target": 37
+  },
+  {
+   "item_id": "banking77-2635",
+   "row_idx": 2635,
+   "state_sha256": "fe8e407724b0db77e6bd5a07e5aeda955aca5ee0b9271bdaba17233a1977955f",
+   "target": 37
+  },
+  {
+   "item_id": "banking77-2642",
+   "row_idx": 2642,
+   "state_sha256": "0bcbcb57d0961332b81ada6d1f5715f6a8aff686f86d1d3b6ef8db650c458767",
+   "target": 59
+  },
+  {
+   "item_id": "banking77-2650",
+   "row_idx": 2650,
+   "state_sha256": "b6083de574c32a8ee83fa78513536fb9b2a681d42db577336309652b9d7eec05",
+   "target": 59
+  },
+  {
+   "item_id": "banking77-2657",
+   "row_idx": 2657,
+   "state_sha256": "a0c8a50b0af4977e9a60066f01a4074ea55e7f908e5bbb5f14f8ccbc64a40fa5",
+   "target": 59
+  },
+  {
+   "item_id": "banking77-2667",
+   "row_idx": 2667,
+   "state_sha256": "c109218411e1be6960d2e726d319c9f34bf2a9bf85e575c4bddffab105a1bba8",
+   "target": 59
+  },
+  {
+   "item_id": "banking77-2682",
+   "row_idx": 2682,
+   "state_sha256": "3e6ba0132e9ef76ebe46e960ce5683231ddcc0353107d1618ed08f391b2e8aee",
+   "target": 5
+  },
+  {
+   "item_id": "banking77-2687",
+   "row_idx": 2687,
+   "state_sha256": "d971e639e47506c43f30964342fc426f7faa5bcda456b059f6d9b0f3393e5014",
+   "target": 5
+  },
+  {
+   "item_id": "banking77-2691",
+   "row_idx": 2691,
+   "state_sha256": "f808200076e9c52a58ba17b79f98f9e186cbfb9937e8437b12e54e0dbbd40836",
+   "target": 5
+  },
+  {
+   "item_id": "banking77-2699",
+   "row_idx": 2699,
+   "state_sha256": "569d76b1846fc55791f152a9e86877cc4a37ad5cae55b7343dcbd469e1541c2c",
+   "target": 5
+  },
+  {
+   "item_id": "banking77-2717",
+   "row_idx": 2717,
+   "state_sha256": "1a3d707b2346295d501058d7ef6920867fc81af9dec2b787e47ca6d7a5b00193",
+   "target": 20
+  },
+  {
+   "item_id": "banking77-2738",
+   "row_idx": 2738,
+   "state_sha256": "0314124f17772a39fe1d06d49b4e37046781191f6c22b5a58d7dfd44223e3684",
+   "target": 20
+  },
+  {
+   "item_id": "banking77-2739",
+   "row_idx": 2739,
+   "state_sha256": "0e709421488897ebbbfe21def0b3e095e6b882b72c16d329f789297712082c11",
+   "target": 20
+  },
+  {
+   "item_id": "banking77-2752",
+   "row_idx": 2752,
+   "state_sha256": "0e38f3daa4269e6e61a45d8c6829b06aef5582b8b1ab1bd09e26f9d75c51f78f",
+   "target": 20
+  },
+  {
+   "item_id": "banking77-2766",
+   "row_idx": 2766,
+   "state_sha256": "6a08b5ef25db87f50db8a3a9f35dc2a9a8087b86752647acf16d62c01303e494",
+   "target": 31
+  },
+  {
+   "item_id": "banking77-2769",
+   "row_idx": 2769,
+   "state_sha256": "701c8c9b6f77c11f8238f7fb7f0efc7cc8888a09600986e06b571e11d7daa0dc",
+   "target": 31
+  },
+  {
+   "item_id": "banking77-2770",
+   "row_idx": 2770,
+   "state_sha256": "8ae0ff7b3cb67f808fb2e82bfd872fb61495f88ab230e3534158ff6d0269ed22",
+   "target": 31
+  },
+  {
+   "item_id": "banking77-2774",
+   "row_idx": 2774,
+   "state_sha256": "e6b2491d41d6fce0a0e2abb3bb1bb79834aef7e1904014d6dcd59f6d49e88fba",
+   "target": 31
+  },
+  {
+   "item_id": "banking77-2801",
+   "row_idx": 2801,
+   "state_sha256": "d8aad4760f8e2024f774efe197770c117db22d9431c3a674a20a2f5d44263ca5",
+   "target": 57
+  },
+  {
+   "item_id": "banking77-2805",
+   "row_idx": 2805,
+   "state_sha256": "ebfbced8b8dadeee0c1ee1acb7b7f4298be9c171e51afa228551d6a2e1af8d2b",
+   "target": 57
+  },
+  {
+   "item_id": "banking77-2812",
+   "row_idx": 2812,
+   "state_sha256": "20467b0440474ef776c72aad35b39f00c6d92aee2506f11f2949a9b5998370fc",
+   "target": 57
+  },
+  {
+   "item_id": "banking77-2834",
+   "row_idx": 2834,
+   "state_sha256": "9ba4f6eeb3dcf01a7c9fbf8e5fa518dfb15984103e362659cf90688efe13b526",
+   "target": 57
+  },
+  {
+   "item_id": "banking77-2837",
+   "row_idx": 2837,
+   "state_sha256": "3fedde8dea8c757caa20a14407d879dd7e54a84220dc1cc7e4bc5c9130d1afc5",
+   "target": 0
+  },
+  {
+   "item_id": "banking77-2838",
+   "row_idx": 2838,
+   "state_sha256": "ad2cd30351ecd8dc20f35bf7227c7ee2e1035bc4d2add450a14ee6b0f04f078d",
+   "target": 0
+  },
+  {
+   "item_id": "banking77-2842",
+   "row_idx": 2842,
+   "state_sha256": "a37a02a9e95088b27210d4cad87291358c0cfefef92255511a0a4197927e6690",
+   "target": 0
+  },
+  {
+   "item_id": "banking77-2848",
+   "row_idx": 2848,
+   "state_sha256": "30f9c3a1d10c761216bbded2dafcb5042cfefadb76db55560dac90945c48b724",
+   "target": 0
+  },
+  {
+   "item_id": "banking77-2876",
+   "row_idx": 2876,
+   "state_sha256": "abd00fc98d39c6752b35de7a25293daca61213b65e5ea63f280fc016549fe1b9",
+   "target": 19
+  },
+  {
+   "item_id": "banking77-2886",
+   "row_idx": 2886,
+   "state_sha256": "928bdd15418423a3494e8c61f2b486bd80da46f4ed3929a84f585251e804777e",
+   "target": 19
+  },
+  {
+   "item_id": "banking77-2902",
+   "row_idx": 2902,
+   "state_sha256": "003a12dfae756424c82b9b4e3f19783022681a6a73c64811859d2cd232ba7eda",
+   "target": 19
+  },
+  {
+   "item_id": "banking77-2911",
+   "row_idx": 2911,
+   "state_sha256": "e0e8ab13ea4e5f0755b45c6dff97620e33548fe9926c7f42962e0efd2868a978",
+   "target": 19
+  },
+  {
+   "item_id": "banking77-2920",
+   "row_idx": 2920,
+   "state_sha256": "95f06ac0c89e2d85c87da88e1233714d0773b24504fb2fba1723369c2d4f4899",
+   "target": 9
+  },
+  {
+   "item_id": "banking77-2930",
+   "row_idx": 2930,
+   "state_sha256": "5f829ed4d29f93a9f74900667c53c4c70e4b531a363e381a4a787e5f7dd55fd5",
+   "target": 9
+  },
+  {
+   "item_id": "banking77-2933",
+   "row_idx": 2933,
+   "state_sha256": "e7974d4f0070b2151683e3396fa0fec65ef9d0caec26837dd24d029542fc7ddf",
+   "target": 9
+  },
+  {
+   "item_id": "banking77-2951",
+   "row_idx": 2951,
+   "state_sha256": "3c7ed9c2d3387e060a7224b7ceededa55b84fe56adce139f26c75f4a64f8b1d9",
+   "target": 9
+  },
+  {
+   "item_id": "banking77-2958",
+   "row_idx": 2958,
+   "state_sha256": "d3ea51eea6242acc0dbdb39a67829c65e6c5b35837395297cbdba88467c53d60",
+   "target": 2
+  },
+  {
+   "item_id": "banking77-2981",
+   "row_idx": 2981,
+   "state_sha256": "7ebd985ebbe57e3aa7926c1a2d80b131e77c2c5bc29853e981772a1d5588735a",
+   "target": 2
+  },
+  {
+   "item_id": "banking77-2986",
+   "row_idx": 2986,
+   "state_sha256": "cb8c946bfba391cc5b9f6fd8bfd6bd08f3c995ea10e8e8a8da97ae73317109ad",
+   "target": 2
+  },
+  {
+   "item_id": "banking77-2990",
+   "row_idx": 2990,
+   "state_sha256": "b1159a33a9104034ea62f00dc723f56d1129bc14ae82248275bdb531da621ee2",
+   "target": 2
+  },
+  {
+   "item_id": "banking77-3002",
+   "row_idx": 3002,
+   "state_sha256": "65e4d4b6f74c1d6c541c413519d45f9a604e43e8666b1a6489a6bf8e0966f7b9",
+   "target": 69
+  },
+  {
+   "item_id": "banking77-3012",
+   "row_idx": 3012,
+   "state_sha256": "2083793a0d5615503bf99181d43c9e3f20555a303e92d63f4a7026aae44c9c86",
+   "target": 69
+  },
+  {
+   "item_id": "banking77-3019",
+   "row_idx": 3019,
+   "state_sha256": "8f57a43666aaa4b82b3bbefca31ac7b4c34aeff707cc61499ac304cab8490557",
+   "target": 69
+  },
+  {
+   "item_id": "banking77-3025",
+   "row_idx": 3025,
+   "state_sha256": "9ae97975b210028f4bdf1cae7386b350d75e6d81e050e2492cec3850f677c410",
+   "target": 69
+  },
+  {
+   "item_id": "banking77-3041",
+   "row_idx": 3041,
+   "state_sha256": "08e1bb8596da55b0019feedbfcea409c9f915d810dd8c67efda951c30b4607cc",
+   "target": 24
+  },
+  {
+   "item_id": "banking77-3044",
+   "row_idx": 3044,
+   "state_sha256": "6a28b05b2c22ebd655af617b1b4b394b7a5679e796b093591fecbe0dc990de83",
+   "target": 24
+  },
+  {
+   "item_id": "banking77-3073",
+   "row_idx": 3073,
+   "state_sha256": "8d778c7c350b9bcc2b9ba61828f3042c0c046a29c24f490d60f55a9f8090d369",
+   "target": 24
+  },
+  {
+   "item_id": "banking77-3074",
+   "row_idx": 3074,
+   "state_sha256": "860757dc05a7556a7b2e1be910fda090ade37751124156ab49f865ed7ea6bbde",
+   "target": 24
+  }
+ ]
+}
