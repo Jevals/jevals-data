@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below."
+type: dataset
+title: "Jevals: independent benchmark data for Jev and Jev-type models"
+authors:
+  - name: Jevals
+url: "https://jevals.com/"
+repository: "https://github.com/Jevals/jevals-data"
+license: CC-BY-4.0
+version: "2026-09-18"
+date-released: 2026-09-18
+keywords:
+  - Jev
+  - TypeSafe AI
+  - System One model
+  - benchmark
+  - calibration
+  - LLM evaluation

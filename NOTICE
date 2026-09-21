@@ -1,0 +1,7 @@
+The Jevals data in this directory (suite files, run logs and release boards) is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: "Jevals (jevals.com), release <release id>".
+
+Suite files contain item ids, row indices, hashes and labels from third-party datasets, which keep their own licences:
+Banking77 (CC BY 4.0, PolyAI), HelpSteer2 (CC BY 4.0, NVIDIA), PubMedQA (MIT). Item text is not redistributed here.
